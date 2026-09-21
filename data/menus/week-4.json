@@ -1,0 +1,22 @@
+{
+  "week": 4,
+  "themeId": "tea-time-home",
+  "themeName": "Tea-Time Home Edition",
+  "tagline": "Guest-ready without the baking panic.",
+  "recommendedPrice": 250,
+  "product": {
+    "id": "box",
+    "name": "Tea-Time Home box",
+    "price": 250,
+    "description": "Tea-time box for 2-3: four scones, four milk tart squares, mini vanilla loaf and four shortbread fingers.",
+    "allergens": "Wheat | gluten | dairy | egg | raisins may contain sulphites",
+    "tag": "One box | four bakes | fits a standard bakery box | for 2-3",
+    "contents": [
+      "4 scones (2 plain + 2 fruit)",
+      "4 milk tart squares",
+      "Mini vanilla butter loaf (~4 slices)",
+      "4 shortbread fingers"
+    ]
+  },
+  "notes": "Pack milk tart last (chilled). Optional mini jam pots if budget allows. Box-fit v2: portions reduced so items pack cleanly."
+}

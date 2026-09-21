@@ -1,0 +1,1217 @@
+{
+  "month": 1,
+  "title": "Month 1 recipes",
+  "scaleNote": "Quantities = 1 customer box (right-sized for 2-3 people to fit a standard bakery box). Multiply by boxes ordered.",
+  "weeks": [
+    {
+      "week": 1,
+      "themeId": "after-church-classic",
+      "themeName": "After-Church Classic",
+      "price": 245,
+      "recipes": [
+        {
+          "id": "lemon-drizzle-loaf",
+          "name": "Lemon drizzle loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 75,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "butter",
+              "name": "Butter, melted",
+              "amount": 50,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 40,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "lemons",
+              "name": "Lemons (zest + juice)",
+              "amount": 1,
+              "unit": "each",
+              "group": "produce"
+            },
+            {
+              "key": "lemon-juice",
+              "name": "Lemon juice (batter)",
+              "amount": 15,
+              "unit": "ml",
+              "group": "produce"
+            },
+            {
+              "key": "icing-sugar",
+              "name": "Icing / castor sugar (drizzle)",
+              "amount": 30,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "lemon-juice",
+              "name": "Lemon juice (drizzle)",
+              "amount": 12,
+              "unit": "ml",
+              "group": "produce"
+            }
+          ],
+          "methodNote": "170 °C | 40-50 min. Drizzle while warm; cool fully before wrap. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/lemon-drizzle-loaf.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "cinnamon-swirl-buns",
+          "name": "Soft cinnamon swirl buns",
+          "yield": "2 medium buns",
+          "ingredients": [
+            {
+              "key": "bread-flour",
+              "name": "Bread flour",
+              "amount": 150,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "instant-yeast",
+              "name": "Instant yeast",
+              "amount": 4,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 20,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 3,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Warm milk",
+              "amount": 90,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter (dough)",
+              "amount": 20,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter (filling)",
+              "amount": 20,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "brown-sugar",
+              "name": "Brown sugar (filling)",
+              "amount": 25,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "cinnamon",
+              "name": "Ground cinnamon",
+              "amount": 1,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "icing-sugar",
+              "name": "Icing sugar (glaze)",
+              "amount": 20,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Milk (glaze splash)",
+              "amount": 8,
+              "unit": "ml",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "Rise 45-60 min; shape 4 buns; 180 °C | 18-22 min. Optional overnight fridge after shaping. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/cinnamon-swirl-buns.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "apricot-thumbprints",
+          "name": "Apricot jam thumbprint shortbreads",
+          "yield": "4 biscuits",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter, cubed",
+              "amount": 50,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "castor-sugar",
+              "name": "Castor sugar",
+              "amount": 25,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "apricot-jam",
+              "name": "Apricot jam",
+              "amount": 20,
+              "unit": "g",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "Chill dough 30 min. 170 °C | 12-15 min until edges pale gold. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/apricot-thumbprints.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "cheese-chive-scones",
+          "name": "Cheese & chive scones",
+          "yield": "2 medium scones",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "black-pepper",
+              "name": "Black pepper",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter",
+              "amount": 25,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "cheddar",
+              "name": "Grated cheddar",
+              "amount": 40,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "chives",
+              "name": "Chopped chives",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "group": "produce"
+            },
+            {
+              "key": "milk",
+              "name": "Cold milk",
+              "amount": 65,
+              "unit": "ml",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "200 °C | 12-15 min. Pat 2 cm thick; brush milk before bake. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/cheese-chive-scones.jpg",
+          "boxFitFactor": 0.5
+        }
+      ],
+      "boxContents": [
+        "Mini lemon drizzle loaf (~4 slices)",
+        "2 soft cinnamon swirl buns",
+        "4 apricot jam thumbprint shortbreads",
+        "2 cheese & chive scones"
+      ]
+    },
+    {
+      "week": 2,
+      "themeId": "chocolate-sunday",
+      "themeName": "Chocolate Sunday",
+      "price": 265,
+      "recipes": [
+        {
+          "id": "fudgy-brownies",
+          "name": "Fudgy brownies",
+          "yield": "4 squares",
+          "ingredients": [
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 75,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 100,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa powder, sifted",
+              "amount": 30,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 40,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "chocolate-chips",
+              "name": "Chocolate chips (optional)",
+              "amount": 33,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "170 °C | 22-28 min - centre slightly soft. Cool fully; cut 3×3. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/fudgy-brownies.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "double-choc-cookies",
+          "name": "Double-chocolate chip cookies",
+          "yield": "4 medium cookies",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 50,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "brown-sugar",
+              "name": "Brown sugar",
+              "amount": 40,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 20,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "chocolate-chips",
+              "name": "Chocolate chips / chunks",
+              "amount": 50,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa (optional double)",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "group": "dry"
+            }
+          ],
+          "methodNote": "170 °C | 12-14 min. Edges set, centres soft. Cool on tray. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/double-choc-cookies.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "vanilla-cupcakes-ganache",
+          "name": "Vanilla cupcakes + chocolate ganache",
+          "yield": "2 cupcakes",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 50,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 40,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "dry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "oil",
+              "name": "Oil (or melted butter)",
+              "amount": 30,
+              "unit": "ml",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 30,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "chocolate",
+              "name": "Dark / milk chocolate (ganache)",
+              "amount": 40,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "cream",
+              "name": "Cream (ganache)",
+              "amount": 35,
+              "unit": "ml",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "Cupcakes 170 °C | 15-18 min. Flat ganache tops; fridge 20 min before pack. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/vanilla-cupcakes-ganache.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "cocoa-banana-loaf",
+          "name": "Cocoa banana loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "ingredients": [
+            {
+              "key": "bananas",
+              "name": "Very ripe bananas, mashed",
+              "amount": 125,
+              "unit": "g",
+              "group": "produce"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 40,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "oil",
+              "name": "Oil",
+              "amount": 40,
+              "unit": "ml",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa powder",
+              "amount": 13,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "170 °C | 45-55 min until skewer clean. Cool fully. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/cocoa-banana-loaf.jpg",
+          "boxFitFactor": 0.5
+        }
+      ],
+      "boxContents": [
+        "4 fudgy brownie squares",
+        "4 double-chocolate cookies",
+        "2 vanilla cupcakes with ganache",
+        "Mini cocoa banana loaf (~4 slices)"
+      ]
+    },
+    {
+      "week": 3,
+      "themeId": "braai-weekend",
+      "themeName": "Braai Weekend Box",
+      "price": 265,
+      "recipes": [
+        {
+          "id": "malva-pudding",
+          "name": "Malva pudding + sauce",
+          "yield": "2-3 portions in small foil tray",
+          "ingredients": [
+            {
+              "key": "white-sugar",
+              "name": "White sugar (pudding)",
+              "amount": 75,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "apricot-jam",
+              "name": "Apricot jam",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "group": "pantry"
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Butter, melted (pudding)",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "group": "dairy"
+            },
+            {
+              "key": "vinegar",
+              "name": "Vinegar",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Milk (pudding)",
+              "amount": 50,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "cream",
+              "name": "Cream (sauce)",
+              "amount": 50,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar (sauce)",
+              "amount": 40,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Butter (sauce)",
+              "amount": 25,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "water",
+              "name": "Hot water or milk (sauce)",
+              "amount": 25,
+              "unit": "ml",
+              "group": "pantry"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla (sauce)",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "foil-tray",
+              "name": "Foil tray",
+              "amount": 1,
+              "unit": "each",
+              "group": "packaging"
+            },
+            {
+              "key": "sauce-jar",
+              "name": "Sauce jar",
+              "amount": 1,
+              "unit": "each",
+              "group": "packaging"
+            }
+          ],
+          "methodNote": "180 °C | 25-35 min. Pour half sauce over hot pudding; reserve half in jar. Fridge. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/malva-pudding.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "cheddar-corn-muffins",
+          "name": "Cheddar corn muffins",
+          "yield": "3 muffins",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 75,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "oil",
+              "name": "Oil",
+              "amount": 30,
+              "unit": "ml",
+              "group": "pantry"
+            },
+            {
+              "key": "sweetcorn",
+              "name": "Sweetcorn, drained",
+              "amount": 70,
+              "unit": "g",
+              "group": "produce"
+            },
+            {
+              "key": "cheddar",
+              "name": "Grated cheddar (optional)",
+              "amount": 25,
+              "unit": "g",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "190 °C | 15-18 min until golden. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/cheddar-corn-muffins.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "milk-dinner-rolls",
+          "name": "Soft milk dinner rolls",
+          "yield": "3 soft rolls",
+          "ingredients": [
+            {
+              "key": "bread-flour",
+              "name": "Bread flour",
+              "amount": 150,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "instant-yeast",
+              "name": "Instant yeast",
+              "amount": 4,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 13,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 3,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Warm milk",
+              "amount": 85,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 15,
+              "unit": "g",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "Rise 45-60 min; shape 6; 190 °C | 12-15 min. Brush butter optional. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/milk-dinner-rolls.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "ginger-biscuits",
+          "name": "Ginger biscuits",
+          "yield": "6 biscuits",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 90,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "ground-ginger",
+              "name": "Ground ginger",
+              "amount": 1.2,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 45,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 45,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "golden-syrup",
+              "name": "Golden syrup or honey",
+              "amount": 0.6,
+              "unit": "tbsp",
+              "group": "pantry"
+            },
+            {
+              "key": "egg-yolk",
+              "name": "Egg yolk",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            }
+          ],
+          "methodNote": "Chill 20 min. 170 °C | 10-12 min. Cool on tray. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/ginger-biscuits.jpg",
+          "boxFitFactor": 0.6
+        }
+      ],
+      "boxContents": [
+        "Malva pudding + sauce (small tray, 2-3 portions)",
+        "3 cheddar corn muffins",
+        "3 soft milk dinner rolls",
+        "6 ginger biscuits"
+      ]
+    },
+    {
+      "week": 4,
+      "themeId": "tea-time-home",
+      "themeName": "Tea-Time Home Edition",
+      "price": 250,
+      "recipes": [
+        {
+          "id": "plain-fruit-scones",
+          "name": "Plain + fruit scones",
+          "yield": "4 scones (2 plain + 2 fruit)",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 201,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 10,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter",
+              "amount": 40,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 27,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "milk",
+              "name": "Cold milk",
+              "amount": 114,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "raisins",
+              "name": "Raisins (fruit half)",
+              "amount": 27,
+              "unit": "g",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "200 °C | 12-15 min. Fold raisins into half of dough only. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/plain-fruit-scones.jpg",
+          "boxFitFactor": 0.67
+        },
+        {
+          "id": "milk-tart-squares",
+          "name": "Milk tart squares",
+          "yield": "4 squares",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour (base)",
+              "amount": 54,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "butter",
+              "name": "Butter (base)",
+              "amount": 27,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar (base)",
+              "amount": 14,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            },
+            {
+              "key": "condensed-milk",
+              "name": "Condensed milk",
+              "amount": 113,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "milk",
+              "name": "Milk (custard)",
+              "amount": 225,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "maizena",
+              "name": "Cake flour or Maizena (custard)",
+              "amount": 0.9,
+              "unit": "tbsp",
+              "group": "dry"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "cinnamon",
+              "name": "Cinnamon (dust)",
+              "amount": 0.5,
+              "unit": "tsp",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "Base 170 °C | 12-15 min; custard 160 °C | 25-35 min. Fridge overnight; cut cold. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/milk-tart-squares.jpg",
+          "boxFitFactor": 0.45
+        },
+        {
+          "id": "vanilla-butter-loaf",
+          "name": "Vanilla butter loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 75,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "group": "dairy"
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 50,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 40,
+              "unit": "ml",
+              "group": "dairy"
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 1,
+              "unit": "tsp",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "170 °C | 40-50 min. Cool fully. Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/vanilla-butter-loaf.jpg",
+          "boxFitFactor": 0.5
+        },
+        {
+          "id": "shortbread-fingers",
+          "name": "Shortbread fingers",
+          "yield": "4 fingers",
+          "ingredients": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "group": "dry"
+            },
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 50,
+              "unit": "g",
+              "group": "dairy"
+            },
+            {
+              "key": "castor-sugar",
+              "name": "Castor sugar",
+              "amount": 25,
+              "unit": "g",
+              "group": "pantry"
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "group": "pantry"
+            }
+          ],
+          "methodNote": "Chill 20 min. 160 °C | 15-20 min pale (not brown). Box-fit batch: smaller tin / fewer pieces - watch bake time (often 5-10 min less).",
+          "image": "assets/recipes/shortbread-fingers.jpg",
+          "boxFitFactor": 0.5
+        }
+      ],
+      "boxContents": [
+        "4 scones (2 plain + 2 fruit)",
+        "4 milk tart squares",
+        "Mini vanilla butter loaf (~4 slices)",
+        "4 shortbread fingers"
+      ]
+    }
+  ],
+  "boxFit": {
+    "version": 2,
+    "people": "2-3",
+    "packaging": "Standard bakery / takeaway cake box (~28-32 cm long). Four compact items per box.",
+    "note": "Reduced from original Month 1 \"tea-table\" yields so the box packs without crushing.",
+    "updatedAt": "2026-07-21"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "week": 2,
+  "themeId": "chocolate-sunday",
+  "themeName": "Chocolate Sunday",
+  "tagline": "The weekend treat box.",
+  "recommendedPrice": 265,
+  "product": {
+    "id": "box",
+    "name": "Chocolate Sunday box",
+    "price": 265,
+    "description": "Chocolate treat box for 2-3: four brownie squares, four cookies, two ganache cupcakes and a mini cocoa banana loaf.",
+    "allergens": "Wheat | gluten | dairy | egg | soy | may contain nuts",
+    "tag": "One box | four bakes | fits a standard bakery box | for 2-3",
+    "contents": [
+      "4 fudgy brownie squares",
+      "4 double-chocolate cookies",
+      "2 vanilla cupcakes with ganache",
+      "Mini cocoa banana loaf (~4 slices)"
+    ]
+  },
+  "notes": "Premium week. Keep ganache flat (not tall soft icing). Box-fit v2: portions reduced so items pack cleanly."
+}

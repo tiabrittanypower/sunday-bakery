@@ -1,0 +1,2991 @@
+{
+  "searchUi": {
+    "url": "https://www.checkers.co.za/search?Search=cake%20flour",
+    "prices": [
+      "R0.00"
+    ],
+    "resultLine": "0 RESULT FOR CAKE FLOUR\n",
+    "hasNo": true
+  },
+  "tryFetch": [],
+  "captures": [
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-popular-searches",
+      "postData": "{}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-popular-searches",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": [
+        "success",
+        "terms"
+      ]
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a32b87593d056fdc7894f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a564650d42c53eb9dd85879\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a37827593d056fdc78eb3\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5493d9aad28867e2c7206f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"69e4b79ebd0239b5e02b58e7\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3606244887b727385943\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a06c1cdbd0a3b4a7beab9dc\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3d320ce01d73a454f857\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 5,
+      "firstProduct": {
+        "name": "Forage And Feast Bran & Honey Rusks 400g",
+        "price": 74.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 13,
+      "firstProduct": {
+        "name": "Kiri Dip & Crunch Cream Cheese Dip with Breadsticks 4 x 35g",
+        "price": 64.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Simple Truth Free-Range Fresh Whole Chicken Per KG",
+        "price": 59.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Lovies Fragrance-Free Baby Petroleum Jelly Tub 300ml",
+        "price": 39.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 19,
+      "firstProduct": {
+        "name": "Montego Monty & Me Essential Adult Dog Food 20kg",
+        "price": 439.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Spider-Man Deluxe Lunch Bag (Design May Vary)",
+        "price": 89.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "NESCAFÉ Original Cappuccino Sticks 10 x 18g",
+        "price": 78.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "BLU52 All-in-One Pool Solution 1.2kg",
+        "price": 179.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a32b87593d056fdc7894f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a564650d42c53eb9dd85879\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a37827593d056fdc78eb3\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5493d9aad28867e2c7206f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"69e4b79ebd0239b5e02b58e7\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3606244887b727385943\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a06c1cdbd0a3b4a7beab9dc\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3d320ce01d73a454f857\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a32b87593d056fdc7894f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a564650d42c53eb9dd85879\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a37827593d056fdc78eb3\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5493d9aad28867e2c7206f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"69e4b79ebd0239b5e02b58e7\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3606244887b727385943\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a06c1cdbd0a3b4a7beab9dc\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5a3d320ce01d73a454f857\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Simple Truth Free-Range Large Eggs 18-Pack",
+        "price": 86.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 15,
+      "firstProduct": {
+        "name": "Kiri Dip & Crunch Cream Cheese Dip with Breadsticks 4 x 35g",
+        "price": 64.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Minecraft Stainless Steel with Straw Travel Mug 940ml",
+        "price": 299.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 18,
+      "firstProduct": {
+        "name": "Montego Monty & Me Essential Adult Dog Food 20kg",
+        "price": 439.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 15,
+      "firstProduct": {
+        "name": "Forage And Feast Mini Almond Biscotti 65g",
+        "price": 39.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Lovies Fragrance-Free Baby Petroleum Jelly Tub 300ml",
+        "price": 39.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "NESCAFÉ Original Cappuccino Sticks 10 x 18g",
+        "price": 79.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "BLU52 All-in-One Pool Solution 1.2kg",
+        "price": 179.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Simple Truth Free-Range Large Eggs 18-Pack",
+        "price": 86.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 15,
+      "firstProduct": {
+        "name": "Kiri Dip & Crunch Cream Cheese Dip with Breadsticks 4 x 35g",
+        "price": 64.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 18,
+      "firstProduct": {
+        "name": "Montego Monty & Me Essential Adult Dog Food 20kg",
+        "price": 439.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "NESCAFÉ Original Cappuccino Sticks 10 x 18g",
+        "price": 79.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Minecraft Stainless Steel with Straw Travel Mug 940ml",
+        "price": 299.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "Lovies Fragrance-Free Baby Petroleum Jelly Tub 300ml",
+        "price": 39.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 15,
+      "firstProduct": {
+        "name": "Forage And Feast Mini Almond Biscotti 65g",
+        "price": 39.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 20,
+      "firstProduct": {
+        "name": "BLU52 All-in-One Pool Solution 1.2kg",
+        "price": 179.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a5f6035183a683564e1e328\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a47974ba63400cff96605f4\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a1444806804a7f8ed13f83b\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6846cc97785509ce8a324657\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6a058534421f738a43abc5a0\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"69c26427510ea8dc791b785f\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"6980757018f0e2374aef2af7\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"69ccf702597fbb3fd2ba8505\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"65e599b34014f258767d6cb7\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"689ddd6e1466f0d4f4b033fa\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"productList\":{\"id\":\"68da8c85f60971ee30170afa\"}},\"paginationOptions\":{\"page\":0,\"pageSize\":20},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{}},\"forYouBonusBuyIds\":[],\"url\":\"/api/v3/products/product-list-page\",\"isCarousel\":true}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-popular-searches",
+      "postData": "{}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-popular-searches",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": [
+        "success",
+        "terms"
+      ]
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter-options",
+      "postData": "{\"productFilterOptions\":{\"productListSource\":{\"search\":\"cake flour\"},\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"userId\":\"\",\"showNotRangedProducts\":true,\"showAllDisplayVariants\":false}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"storeContexts\":[{\"storeId\":\"68590742017ec10565d74cc2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"683766cd790913830224d6e2\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":7,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.2929942872337514,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5e9d73aeb54e17eeda08baf6\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5ed51df156b352cd21c91527\",\"serviceOptionIds\":[\"sixty-min-delivery\"],\"brandPriority\":5,\"hasCapacity\":[\"sixty-min-delivery\"],\"distanceFromCustomer\":1.3444597421841409,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":null},{\"storeId\":\"5f32a3ed2d70729e426d2604\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":2,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":[\"one-day-collection\"],\"hasReturnCapacity\":[\"one-day-collection\"]},{\"storeId\":\"69957a82133da2296795f513\",\"serviceOptionIds\":[\"one-day-delivery\"],\"brandPriority\":12,\"hasCapacity\":[\"sixty-min-delivery\",\"one-day-delivery\"],\"distanceFromCustomer\":3.6950877325048705,\"returnServiceOptionIds\":null,\"hasReturnCapacity\":[\"one-day-collection\"]}],\"filterData\":{\"filter\":{\"showAllDisplayVariants\":false,\"showNotRangedProducts\":false,\"productListSource\":{\"search\":\"cake flour\"},\"paginationOptions\":{\"page\":0,\"pageSize\":16},\"filterOptions\":{\"filterIds\":[],\"dealsOnly\":false,\"brandOptions\":[],\"departmentOptions\":[],\"serviceOptions\":[],\"facetOptions\":[]},\"sortOptions\":null},\"displayOptions\":{\"includeDisplayCategoryTree\":true}},\"forYouBonusBuyIds\":[]}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter-options",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": [
+        "success",
+        "message",
+        "filterOptions"
+      ]
+    },
+    {
+      "kind": "res",
+      "status": 200,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "productCount": 16,
+      "firstProduct": {
+        "name": "Gideon Milling Cake Flour 2.5kg",
+        "price": 49.99,
+        "keys": [
+          "id",
+          "storeId",
+          "serviceOptionId",
+          "primaryServiceOptionId",
+          "unitOfMeasure",
+          "active",
+          "ranged",
+          "storeProductActive",
+          "storeProductPublished",
+          "name",
+          "displayName",
+          "description",
+          "shortDescription",
+          "longDescription",
+          "displayCategories",
+          "displayCategoryIds",
+          "imageId",
+          "imageIds",
+          "replacementProductIds",
+          "weightOptions",
+          "variableWeightOptions",
+          "priceFactor",
+          "priceWithoutDecimal",
+          "currency",
+          "currencySymbol",
+          "discount",
+          "oldPrice",
+          "isOnPromotion",
+          "articleNumber",
+          "packQuantity",
+          "denominator",
+          "replenishable",
+          "stockUpdatedOn",
+          "isStockAvailable",
+          "stockOnHand",
+          "requiresOver18",
+          "barcodes",
+          "barcodeType",
+          "barcodeTypes",
+          "taxEntry"
+        ]
+      },
+      "keys": [
+        "products",
+        "totalCount"
+      ]
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"searchTerm\":\"cake flour\",\"pageSize\":12,\"pageNumber\":0}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"Search\":\"cake flour\",\"pageSize\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?Search=cake+flour&pageSize=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"term\":\"cake flour\",\"limit\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?term=cake+flour&limit=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"query\":\"cake flour\",\"size\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?query=cake+flour&size=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"filters\":[],\"search\":\"cake flour\",\"pagination\":{\"pageNumber\":0,\"pageSize\":12}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter",
+      "postData": "{\"productIds\":[],\"excludeProductIds\":[],\"sortOption\":null,\"filterOptions\":[],\"pageSize\":12,\"pageNumber\":0,\"searchTerm\":\"cake flour\"}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products-filter?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"searchTerm\":\"cake flour\",\"pageSize\":12,\"pageNumber\":0}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"Search\":\"cake flour\",\"pageSize\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?Search=cake+flour&pageSize=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"term\":\"cake flour\",\"limit\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?Search=cake+flour&pageSize=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?term=cake+flour&limit=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"query\":\"cake flour\",\"size\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?term=cake+flour&limit=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?query=cake+flour&size=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"filters\":[],\"search\":\"cake flour\",\"pagination\":{\"pageNumber\":0,\"pageSize\":12}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?query=cake+flour&size=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "postData": "{\"productIds\":[],\"excludeProductIds\":[],\"sortOption\":null,\"filterOptions\":[],\"pageSize\":12,\"pageNumber\":0,\"searchTerm\":\"cake flour\"}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-search-products?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"searchTerm\":\"cake flour\",\"pageSize\":12,\"pageNumber\":0}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"Search\":\"cake flour\",\"pageSize\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?Search=cake+flour&pageSize=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"term\":\"cake flour\",\"limit\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?Search=cake+flour&pageSize=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?term=cake+flour&limit=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"query\":\"cake flour\",\"size\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?term=cake+flour&limit=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?query=cake+flour&size=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"filters\":[],\"search\":\"cake flour\",\"pagination\":{\"pageNumber\":0,\"pageSize\":12}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?query=cake+flour&size=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "postData": "{\"productIds\":[],\"excludeProductIds\":[],\"sortOption\":null,\"filterOptions\":[],\"pageSize\":12,\"pageNumber\":0,\"searchTerm\":\"cake flour\"}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/search?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/search?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"searchTerm\":\"cake flour\",\"pageSize\":12,\"pageNumber\":0}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"Search\":\"cake flour\",\"pageSize\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?Search=cake+flour&pageSize=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"term\":\"cake flour\",\"limit\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?Search=cake+flour&pageSize=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?term=cake+flour&limit=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"query\":\"cake flour\",\"size\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?term=cake+flour&limit=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?query=cake+flour&size=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"filters\":[],\"search\":\"cake flour\",\"pagination\":{\"pageNumber\":0,\"pageSize\":12}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?query=cake+flour&size=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "postData": "{\"productIds\":[],\"excludeProductIds\":[],\"sortOption\":null,\"filterOptions\":[],\"pageSize\":12,\"pageNumber\":0,\"searchTerm\":\"cake flour\"}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-products?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"searchTerm\":\"cake flour\",\"pageSize\":12,\"pageNumber\":0}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"Search\":\"cake flour\",\"pageSize\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?searchTerm=cake+flour&pageSize=12&pageNumber=0",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?Search=cake+flour&pageSize=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"term\":\"cake flour\",\"limit\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?Search=cake+flour&pageSize=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?term=cake+flour&limit=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"query\":\"cake flour\",\"size\":12}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?term=cake+flour&limit=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?query=cake+flour&size=12",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"filters\":[],\"search\":\"cake flour\",\"pagination\":{\"pageNumber\":0,\"pageSize\":12}}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?query=cake+flour&size=12",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "POST",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "postData": "{\"productIds\":[],\"excludeProductIds\":[],\"sortOption\":null,\"filterOptions\":[],\"pageSize\":12,\"pageNumber\":0,\"searchTerm\":\"cake flour\"}",
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?filters=%5B%5D&search=cake+flour&pagination=%7B%22pageNumber%22%3A0%2C%22pageSize%22%3A12%7D",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "req",
+      "method": "GET",
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "postData": null,
+      "interestingHeaders": {
+        "cookie": "",
+        "authorization": ""
+      }
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    },
+    {
+      "kind": "res",
+      "status": 404,
+      "url": "https://www.checkers.co.za/api/catalogue/get-product-search?productIds=%5B%5D&excludeProductIds=%5B%5D&sortOption=null&filterOptions=%5B%5D&pageSize=12&pageNumber=0&searchTerm=cake+flour",
+      "productCount": null,
+      "firstProduct": null,
+      "keys": null
+    }
+  ]
+}

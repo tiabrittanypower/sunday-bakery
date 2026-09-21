@@ -1,0 +1,31 @@
+{
+  "bakeNumber": 1,
+  "collectionDate": "2026-07-26",
+  "collectionLabel": "Sunday, 26 July",
+  "collectionLocation": "Boksburg / Kempton Park | 09:00-11:00",
+  "collectionAddress": "Boksburg / Kempton Park - exact collection point confirmed on your order",
+  "ordersCloseAt": "2026-07-24T18:00:00+02:00",
+  "capacity": 12,
+  "maxPerOrder": 2,
+  "slots": [
+    "09:00-09:30",
+    "09:30-10:00",
+    "10:00-10:30",
+    "10:30-11:00"
+  ],
+  "announcement": "East Rand pilot | After-Church Classic | closes Friday 18:00",
+  "product": {
+    "id": "box",
+    "name": "After-Church Classic box",
+    "price": 245,
+    "description": "A shareable Sunday box for 2-3: mini lemon drizzle, two cinnamon buns, four jam shortbreads and two cheese scones - packed to fit, not a full tea table.",
+    "allergens": "Wheat | gluten | dairy | egg | may contain traces of soy or nuts",
+    "tag": "One box | four bakes | fits a bakery box | for 2-3",
+    "contents": [
+      "Mini lemon drizzle loaf (~4 slices)",
+      "2 soft cinnamon swirl buns",
+      "4 apricot jam thumbprint shortbreads",
+      "2 cheese & chive scones"
+    ]
+  }
+}

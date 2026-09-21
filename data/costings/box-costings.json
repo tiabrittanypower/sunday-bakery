@@ -1,0 +1,1807 @@
+{
+  "currency": "ZAR",
+  "builtAt": "2026-07-21T20:04:19.781Z",
+  "boxFit": {
+    "version": 2,
+    "people": "2-3",
+    "packaging": "Standard bakery / takeaway cake box (~28-32 cm long). Four compact items per box.",
+    "note": "Reduced from original Month 1 \"tea-table\" yields so the box packs without crushing.",
+    "updatedAt": "2026-07-21"
+  },
+  "priceSource": "Checkers / Gauteng supermarket pack estimates (verify at checkers.co.za or in-store)",
+  "overheadAssumptions": {
+    "electricity": {
+      "ratePerKwh": 3.5,
+      "ovenKw": 2.2,
+      "hoursPerBoxByWeek": {
+        "1": 1.35,
+        "2": 1.25,
+        "3": 1.4,
+        "4": 1.3
+      },
+      "batchOf10Factor": 0.45
+    },
+    "packaging": {
+      "bakeryBox": 8.5,
+      "parchmentBags": 2,
+      "stickerLabel": 1.5,
+      "thankYouCard": 1,
+      "tapeTwine": 0.5
+    },
+    "otherPerBox": {
+      "cleaningConsumables": 1.5,
+      "equipmentWear": 2,
+      "wastageContingencyPct": 0.05
+    },
+    "labour": {
+      "minutesPerBoxSolo": 45,
+      "ratePerHour": 0
+    },
+    "pricing": {
+      "targetMarginOnSell": 0.52,
+      "minMarkupOnCost": 2.15,
+      "roundTo": 5
+    }
+  },
+  "disclaimer": "Estimates only. Ingredient packs from Checkers/Gauteng ballpark; electricity uses ~R3.50/kWh and 2.2 kW oven. Re-price packs in-store and check your prepaid tariff. No labour wage unless rate set. Not tax advice.",
+  "weeks": [
+    {
+      "week": 1,
+      "themeName": "After-Church Classic",
+      "boxContents": [
+        "Mini lemon drizzle loaf (~4 slices)",
+        "2 soft cinnamon swirl buns",
+        "4 apricot jam thumbprint shortbreads",
+        "2 cheese & chive scones"
+      ],
+      "menuPrice": 245,
+      "costs": {
+        "ingredients": 79.09,
+        "wastageContingency": 3.95,
+        "ingredientsWithWaste": 83.04,
+        "packaging": 13.5,
+        "electricitySolo": 10.4,
+        "electricityBatch10": 4.68,
+        "electricityDetail": {
+          "hours": 1.35,
+          "ovenKw": 2.2,
+          "kwh": 2.97,
+          "ratePerKwh": 3.5,
+          "cost": 10.4,
+          "costBatch10": 4.68
+        },
+        "cleaningAndWear": 3.5,
+        "labour": 0,
+        "totalCashCostSolo": 110.44,
+        "totalCashCostBatch10": 104.72
+      },
+      "marginAtCurrentMenu": {
+        "solo": {
+          "rand": 134.56,
+          "percent": 54.92
+        },
+        "batch10": {
+          "rand": 140.28,
+          "percent": 57.26
+        }
+      },
+      "recommendedSellPrice": {
+        "basedOnSoloBake": 240,
+        "basedOnBatchOf10": 230,
+        "primary": 230,
+        "rationale": "Current menu is at/above cost-based recommendation — OK if quality holds",
+        "targetMarginOnSell": 0.52,
+        "minMarkupOnCost": 2.15
+      },
+      "recipes": [
+        {
+          "id": "lemon-drizzle-loaf",
+          "name": "Lemon drizzle loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "image": "assets/recipes/lemon-drizzle-loaf.jpg",
+          "ingredientCost": 26.64,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "cost": 1.8,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "cost": 1.25,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.71,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter, melted",
+              "amount": 50,
+              "unit": "g",
+              "cost": 6.9,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 40,
+              "unit": "ml",
+              "cost": 0.74,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "lemons",
+              "name": "Lemons (zest + juice)",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.5,
+              "packLabel": "Lemons each",
+              "packPrice": 4.5,
+              "missing": false
+            },
+            {
+              "key": "lemon-juice",
+              "name": "Lemon juice (batter)",
+              "amount": 15,
+              "unit": "ml",
+              "cost": 2.25,
+              "packLabel": "Lemon juice (~from 1 lemon / 30 ml)",
+              "packPrice": 4.5,
+              "missing": false
+            },
+            {
+              "key": "icing-sugar",
+              "name": "Icing / castor sugar (drizzle)",
+              "amount": 30,
+              "unit": "g",
+              "cost": 1.62,
+              "packLabel": "Icing sugar 500 g",
+              "packPrice": 26.99,
+              "missing": false
+            },
+            {
+              "key": "lemon-juice",
+              "name": "Lemon juice (drizzle)",
+              "amount": 12,
+              "unit": "ml",
+              "cost": 1.8,
+              "packLabel": "Lemon juice (~from 1 lemon / 30 ml)",
+              "packPrice": 4.5,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "cinnamon-swirl-buns",
+          "name": "Soft cinnamon swirl buns",
+          "yield": "2 medium buns",
+          "image": "assets/recipes/cinnamon-swirl-buns.jpg",
+          "ingredientCost": 21.78,
+          "lines": [
+            {
+              "key": "bread-flour",
+              "name": "Bread flour",
+              "amount": 150,
+              "unit": "g",
+              "cost": 2.58,
+              "packLabel": "Bread flour 2.5 kg",
+              "packPrice": 42.99,
+              "missing": false
+            },
+            {
+              "key": "instant-yeast",
+              "name": "Instant yeast",
+              "amount": 4,
+              "unit": "g",
+              "cost": 4,
+              "packLabel": "Instant yeast 10 g sachet",
+              "packPrice": 9.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 20,
+              "unit": "g",
+              "cost": 0.46,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 3,
+              "unit": "g",
+              "cost": 0.05,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Warm milk",
+              "amount": 90,
+              "unit": "ml",
+              "cost": 1.66,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter (dough)",
+              "amount": 20,
+              "unit": "g",
+              "cost": 2.76,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter (filling)",
+              "amount": 20,
+              "unit": "g",
+              "cost": 2.76,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "brown-sugar",
+              "name": "Brown sugar (filling)",
+              "amount": 25,
+              "unit": "g",
+              "cost": 0.87,
+              "packLabel": "Brown sugar 1 kg",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "cinnamon",
+              "name": "Ground cinnamon",
+              "amount": 1,
+              "unit": "tsp",
+              "cost": 1.35,
+              "packLabel": "Ground cinnamon 50 g",
+              "packPrice": 26.99,
+              "missing": false
+            },
+            {
+              "key": "icing-sugar",
+              "name": "Icing sugar (glaze)",
+              "amount": 20,
+              "unit": "g",
+              "cost": 1.08,
+              "packLabel": "Icing sugar 500 g",
+              "packPrice": 26.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk (glaze splash)",
+              "amount": 8,
+              "unit": "ml",
+              "cost": 0.15,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "apricot-thumbprints",
+          "name": "Apricot jam thumbprint shortbreads",
+          "yield": "4 biscuits",
+          "image": "assets/recipes/apricot-thumbprints.jpg",
+          "ingredientCost": 13.05,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.35,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter, cubed",
+              "amount": 50,
+              "unit": "g",
+              "cost": 6.9,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "castor-sugar",
+              "name": "Castor sugar",
+              "amount": 25,
+              "unit": "g",
+              "cost": 1.5,
+              "packLabel": "Castor sugar 500 g",
+              "packPrice": 29.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "apricot-jam",
+              "name": "Apricot jam",
+              "amount": 20,
+              "unit": "g",
+              "cost": 1.64,
+              "packLabel": "Apricot jam 450 g",
+              "packPrice": 36.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "cheese-chive-scones",
+          "name": "Cheese & chive scones",
+          "yield": "2 medium scones",
+          "image": "assets/recipes/cheese-chive-scones.jpg",
+          "ingredientCost": 17.62,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "cost": 1.8,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "cost": 1.25,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "black-pepper",
+              "name": "Black pepper",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.1,
+              "packLabel": "Black pepper 100 g",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter",
+              "amount": 25,
+              "unit": "g",
+              "cost": 3.45,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "cheddar",
+              "name": "Grated cheddar",
+              "amount": 40,
+              "unit": "g",
+              "cost": 7.44,
+              "packLabel": "Cheddar 500 g",
+              "packPrice": 92.99,
+              "missing": false
+            },
+            {
+              "key": "chives",
+              "name": "Chopped chives",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "cost": 2.37,
+              "packLabel": "Fresh chives bunch",
+              "packPrice": 18.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Cold milk",
+              "amount": 65,
+              "unit": "ml",
+              "cost": 1.2,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "themeName": "Chocolate Sunday",
+      "boxContents": [
+        "4 fudgy brownie squares",
+        "4 double-chocolate cookies",
+        "2 vanilla cupcakes with ganache",
+        "Mini cocoa banana loaf (~4 slices)"
+      ],
+      "menuPrice": 265,
+      "costs": {
+        "ingredients": 100.97,
+        "wastageContingency": 5.05,
+        "ingredientsWithWaste": 106.02,
+        "packaging": 13.5,
+        "electricitySolo": 9.63,
+        "electricityBatch10": 4.33,
+        "electricityDetail": {
+          "hours": 1.25,
+          "ovenKw": 2.2,
+          "kwh": 2.75,
+          "ratePerKwh": 3.5,
+          "cost": 9.63,
+          "costBatch10": 4.33
+        },
+        "cleaningAndWear": 3.5,
+        "labour": 0,
+        "totalCashCostSolo": 132.65,
+        "totalCashCostBatch10": 127.35
+      },
+      "marginAtCurrentMenu": {
+        "solo": {
+          "rand": 132.35,
+          "percent": 49.94
+        },
+        "batch10": {
+          "rand": 137.65,
+          "percent": 51.94
+        }
+      },
+      "recommendedSellPrice": {
+        "basedOnSoloBake": 290,
+        "basedOnBatchOf10": 275,
+        "primary": 275,
+        "rationale": "Recommended above current menu — raise price or cut cost",
+        "targetMarginOnSell": 0.52,
+        "minMarkupOnCost": 2.15
+      },
+      "recipes": [
+        {
+          "id": "fudgy-brownies",
+          "name": "Fudgy brownies",
+          "yield": "4 squares",
+          "image": "assets/recipes/fudgy-brownies.jpg",
+          "ingredientCost": 32.38,
+          "lines": [
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 75,
+              "unit": "g",
+              "cost": 10.35,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 100,
+              "unit": "g",
+              "cost": 2.28,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa powder, sifted",
+              "amount": 30,
+              "unit": "g",
+              "cost": 6.84,
+              "packLabel": "Cocoa powder 250 g",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 40,
+              "unit": "g",
+              "cost": 0.72,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "chocolate-chips",
+              "name": "Chocolate chips (optional)",
+              "amount": 33,
+              "unit": "g",
+              "cost": 6.47,
+              "packLabel": "Chocolate chips 250 g",
+              "packPrice": 48.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "double-choc-cookies",
+          "name": "Double-chocolate chip cookies",
+          "yield": "4 medium cookies",
+          "image": "assets/recipes/double-choc-cookies.jpg",
+          "ingredientCost": 26.83,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.35,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.4,
+              "packLabel": "Bicarb 100 g",
+              "packPrice": 19.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 50,
+              "unit": "g",
+              "cost": 6.9,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "brown-sugar",
+              "name": "Brown sugar",
+              "amount": 40,
+              "unit": "g",
+              "cost": 1.4,
+              "packLabel": "Brown sugar 1 kg",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 20,
+              "unit": "g",
+              "cost": 0.46,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "chocolate-chips",
+              "name": "Chocolate chips / chunks",
+              "amount": 50,
+              "unit": "g",
+              "cost": 9.8,
+              "packLabel": "Chocolate chips 250 g",
+              "packPrice": 48.99,
+              "missing": false
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa (optional double)",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "cost": 0.8,
+              "packLabel": "Cocoa powder 250 g",
+              "packPrice": 56.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "vanilla-cupcakes-ganache",
+          "name": "Vanilla cupcakes + chocolate ganache",
+          "yield": "2 cupcakes",
+          "image": "assets/recipes/vanilla-cupcakes-ganache.jpg",
+          "ingredientCost": 24.98,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 50,
+              "unit": "g",
+              "cost": 0.9,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 40,
+              "unit": "g",
+              "cost": 0.91,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.5,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "oil",
+              "name": "Oil (or melted butter)",
+              "amount": 30,
+              "unit": "ml",
+              "cost": 1.4,
+              "packLabel": "Sunflower oil 750 ml",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 30,
+              "unit": "ml",
+              "cost": 0.55,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "chocolate",
+              "name": "Dark / milk chocolate (ganache)",
+              "amount": 40,
+              "unit": "g",
+              "cost": 10.8,
+              "packLabel": "Baking chocolate ~100 g",
+              "packPrice": 26.99,
+              "missing": false
+            },
+            {
+              "key": "cream",
+              "name": "Cream (ganache)",
+              "amount": 35,
+              "unit": "ml",
+              "cost": 4.2,
+              "packLabel": "Fresh cream 250 ml",
+              "packPrice": 29.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "cocoa-banana-loaf",
+          "name": "Cocoa banana loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "image": "assets/recipes/cocoa-banana-loaf.jpg",
+          "ingredientCost": 16.78,
+          "lines": [
+            {
+              "key": "bananas",
+              "name": "Very ripe bananas, mashed",
+              "amount": 125,
+              "unit": "g",
+              "cost": 3.12,
+              "packLabel": "Bananas per kg",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 40,
+              "unit": "g",
+              "cost": 0.91,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "oil",
+              "name": "Oil",
+              "amount": 40,
+              "unit": "ml",
+              "cost": 1.87,
+              "packLabel": "Sunflower oil 750 ml",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "cost": 1.8,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "cocoa",
+              "name": "Cocoa powder",
+              "amount": 13,
+              "unit": "g",
+              "cost": 2.96,
+              "packLabel": "Cocoa powder 250 g",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.4,
+              "packLabel": "Bicarb 100 g",
+              "packPrice": 19.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "themeName": "Braai Weekend Box",
+      "boxContents": [
+        "Malva pudding + sauce (small tray, 2-3 portions)",
+        "3 cheddar corn muffins",
+        "3 soft milk dinner rolls",
+        "6 ginger biscuits"
+      ],
+      "menuPrice": 265,
+      "costs": {
+        "ingredients": 82.12,
+        "wastageContingency": 4.11,
+        "ingredientsWithWaste": 86.23,
+        "packaging": 13.5,
+        "electricitySolo": 10.78,
+        "electricityBatch10": 4.85,
+        "electricityDetail": {
+          "hours": 1.4,
+          "ovenKw": 2.2,
+          "kwh": 3.08,
+          "ratePerKwh": 3.5,
+          "cost": 10.78,
+          "costBatch10": 4.85
+        },
+        "cleaningAndWear": 3.5,
+        "labour": 0,
+        "totalCashCostSolo": 114.01,
+        "totalCashCostBatch10": 108.08
+      },
+      "marginAtCurrentMenu": {
+        "solo": {
+          "rand": 150.99,
+          "percent": 56.98
+        },
+        "batch10": {
+          "rand": 156.92,
+          "percent": 59.22
+        }
+      },
+      "recommendedSellPrice": {
+        "basedOnSoloBake": 250,
+        "basedOnBatchOf10": 235,
+        "primary": 235,
+        "rationale": "Current menu is at/above cost-based recommendation — OK if quality holds",
+        "targetMarginOnSell": 0.52,
+        "minMarkupOnCost": 2.15
+      },
+      "recipes": [
+        {
+          "id": "malva-pudding",
+          "name": "Malva pudding + sauce",
+          "yield": "2-3 portions in small foil tray",
+          "image": "assets/recipes/malva-pudding.jpg",
+          "ingredientCost": 37.47,
+          "lines": [
+            {
+              "key": "white-sugar",
+              "name": "White sugar (pudding)",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.71,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "apricot-jam",
+              "name": "Apricot jam",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "cost": 0.82,
+              "packLabel": "Apricot jam 450 g",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.35,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.4,
+              "packLabel": "Bicarb 100 g",
+              "packPrice": 19.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter, melted (pudding)",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "cost": 0.97,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "vinegar",
+              "name": "Vinegar",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.06,
+              "packLabel": "White vinegar 750 ml",
+              "packPrice": 18.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk (pudding)",
+              "amount": 50,
+              "unit": "ml",
+              "cost": 0.92,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "cream",
+              "name": "Cream (sauce)",
+              "amount": 50,
+              "unit": "ml",
+              "cost": 6,
+              "packLabel": "Fresh cream 250 ml",
+              "packPrice": 29.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar (sauce)",
+              "amount": 40,
+              "unit": "g",
+              "cost": 0.91,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter (sauce)",
+              "amount": 25,
+              "unit": "g",
+              "cost": 3.45,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "water",
+              "name": "Hot water or milk (sauce)",
+              "amount": 25,
+              "unit": "ml",
+              "cost": 0,
+              "packLabel": "Tap water",
+              "packPrice": 0,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla (sauce)",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "foil-tray",
+              "name": "Foil tray",
+              "amount": 1,
+              "unit": "each",
+              "cost": 6.17,
+              "packLabel": "Foil trays (pack of 6)",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "sauce-jar",
+              "name": "Sauce jar",
+              "amount": 1,
+              "unit": "each",
+              "cost": 8.99,
+              "packLabel": "Small sauce jar",
+              "packPrice": 8.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "cheddar-corn-muffins",
+          "name": "Cheddar corn muffins",
+          "yield": "3 muffins",
+          "image": "assets/recipes/cheddar-corn-muffins.jpg",
+          "ingredientCost": 18.11,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "cost": 1.8,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "cost": 1.25,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 0.5,
+              "unit": "tbsp",
+              "cost": 0.14,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 75,
+              "unit": "ml",
+              "cost": 1.39,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "oil",
+              "name": "Oil",
+              "amount": 30,
+              "unit": "ml",
+              "cost": 1.4,
+              "packLabel": "Sunflower oil 750 ml",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "sweetcorn",
+              "name": "Sweetcorn, drained",
+              "amount": 70,
+              "unit": "g",
+              "cost": 3.41,
+              "packLabel": "Sweetcorn tin 410 g",
+              "packPrice": 19.99,
+              "missing": false
+            },
+            {
+              "key": "cheddar",
+              "name": "Grated cheddar (optional)",
+              "amount": 25,
+              "unit": "g",
+              "cost": 4.65,
+              "packLabel": "Cheddar 500 g",
+              "packPrice": 92.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "milk-dinner-rolls",
+          "name": "Soft milk dinner rolls",
+          "yield": "3 soft rolls",
+          "image": "assets/recipes/milk-dinner-rolls.jpg",
+          "ingredientCost": 10.57,
+          "lines": [
+            {
+              "key": "bread-flour",
+              "name": "Bread flour",
+              "amount": 150,
+              "unit": "g",
+              "cost": 2.58,
+              "packLabel": "Bread flour 2.5 kg",
+              "packPrice": 42.99,
+              "missing": false
+            },
+            {
+              "key": "instant-yeast",
+              "name": "Instant yeast",
+              "amount": 4,
+              "unit": "g",
+              "cost": 4,
+              "packLabel": "Instant yeast 10 g sachet",
+              "packPrice": 9.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 13,
+              "unit": "g",
+              "cost": 0.3,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 3,
+              "unit": "g",
+              "cost": 0.05,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Warm milk",
+              "amount": 85,
+              "unit": "ml",
+              "cost": 1.57,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 15,
+              "unit": "g",
+              "cost": 2.07,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "ginger-biscuits",
+          "name": "Ginger biscuits",
+          "yield": "6 biscuits",
+          "image": "assets/recipes/ginger-biscuits.jpg",
+          "ingredientCost": 15.97,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 90,
+              "unit": "g",
+              "cost": 1.62,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "bicarb",
+              "name": "Bicarbonate of soda",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.4,
+              "packLabel": "Bicarb 100 g",
+              "packPrice": 19.99,
+              "missing": false
+            },
+            {
+              "key": "ground-ginger",
+              "name": "Ground ginger",
+              "amount": 1.2,
+              "unit": "tsp",
+              "cost": 1.62,
+              "packLabel": "Ground ginger 50 g",
+              "packPrice": 26.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 45,
+              "unit": "g",
+              "cost": 6.21,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 45,
+              "unit": "g",
+              "cost": 1.03,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "golden-syrup",
+              "name": "Golden syrup or honey",
+              "amount": 0.6,
+              "unit": "tbsp",
+              "cost": 1.03,
+              "packLabel": "Golden syrup 500 g",
+              "packPrice": 42.99,
+              "missing": false
+            },
+            {
+              "key": "egg-yolk",
+              "name": "Egg yolk",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s (per yolk = 1 egg)",
+              "packPrice": 72.99,
+              "missing": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "themeName": "Tea-Time Home Edition",
+      "boxContents": [
+        "4 scones (2 plain + 2 fruit)",
+        "4 milk tart squares",
+        "Mini vanilla butter loaf (~4 slices)",
+        "4 shortbread fingers"
+      ],
+      "menuPrice": 250,
+      "costs": {
+        "ingredients": 72.6,
+        "wastageContingency": 3.63,
+        "ingredientsWithWaste": 76.23,
+        "packaging": 13.5,
+        "electricitySolo": 10.01,
+        "electricityBatch10": 4.5,
+        "electricityDetail": {
+          "hours": 1.3,
+          "ovenKw": 2.2,
+          "kwh": 2.86,
+          "ratePerKwh": 3.5,
+          "cost": 10.01,
+          "costBatch10": 4.5
+        },
+        "cleaningAndWear": 3.5,
+        "labour": 0,
+        "totalCashCostSolo": 103.24,
+        "totalCashCostBatch10": 97.73
+      },
+      "marginAtCurrentMenu": {
+        "solo": {
+          "rand": 146.76,
+          "percent": 58.7
+        },
+        "batch10": {
+          "rand": 152.27,
+          "percent": 60.91
+        }
+      },
+      "recommendedSellPrice": {
+        "basedOnSoloBake": 225,
+        "basedOnBatchOf10": 215,
+        "primary": 215,
+        "rationale": "Current menu is at/above cost-based recommendation — OK if quality holds",
+        "targetMarginOnSell": 0.52,
+        "minMarkupOnCost": 2.15
+      },
+      "recipes": [
+        {
+          "id": "plain-fruit-scones",
+          "name": "Plain + fruit scones",
+          "yield": "4 scones (2 plain + 2 fruit)",
+          "image": "assets/recipes/plain-fruit-scones.jpg",
+          "ingredientCost": 16.7,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 201,
+              "unit": "g",
+              "cost": 3.62,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 10,
+              "unit": "g",
+              "cost": 2.5,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Cold butter",
+              "amount": 40,
+              "unit": "g",
+              "cost": 5.52,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 27,
+              "unit": "g",
+              "cost": 0.62,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Cold milk",
+              "amount": 114,
+              "unit": "ml",
+              "cost": 2.11,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "raisins",
+              "name": "Raisins (fruit half)",
+              "amount": 27,
+              "unit": "g",
+              "cost": 2.32,
+              "packLabel": "Raisins 500 g",
+              "packPrice": 42.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "milk-tart-squares",
+          "name": "Milk tart squares",
+          "yield": "4 squares",
+          "image": "assets/recipes/milk-tart-squares.jpg",
+          "ingredientCost": 26.37,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour (base)",
+              "amount": 54,
+              "unit": "g",
+              "cost": 0.97,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter (base)",
+              "amount": 27,
+              "unit": "g",
+              "cost": 3.73,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar (base)",
+              "amount": 14,
+              "unit": "g",
+              "cost": 0.32,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            },
+            {
+              "key": "condensed-milk",
+              "name": "Condensed milk",
+              "amount": 113,
+              "unit": "g",
+              "cost": 10.27,
+              "packLabel": "Condensed milk 385 g",
+              "packPrice": 34.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk (custard)",
+              "amount": 225,
+              "unit": "ml",
+              "cost": 4.16,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "maizena",
+              "name": "Cake flour or Maizena (custard)",
+              "amount": 0.9,
+              "unit": "tbsp",
+              "cost": 0.53,
+              "packLabel": "Maizena 500 g",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 1.65,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "cinnamon",
+              "name": "Cinnamon (dust)",
+              "amount": 0.5,
+              "unit": "tsp",
+              "cost": 0.67,
+              "packLabel": "Ground cinnamon 50 g",
+              "packPrice": 26.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "vanilla-butter-loaf",
+          "name": "Vanilla butter loaf",
+          "yield": "1 mini loaf ~ 4 slices",
+          "image": "assets/recipes/vanilla-butter-loaf.jpg",
+          "ingredientCost": 19.77,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 100,
+              "unit": "g",
+              "cost": 1.8,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "baking-powder",
+              "name": "Baking powder",
+              "amount": 5,
+              "unit": "g",
+              "cost": 1.25,
+              "packLabel": "Baking powder 100 g",
+              "packPrice": 24.99,
+              "missing": false
+            },
+            {
+              "key": "white-sugar",
+              "name": "White sugar",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.71,
+              "packLabel": "White sugar 2.5 kg",
+              "packPrice": 56.99,
+              "missing": false
+            },
+            {
+              "key": "eggs",
+              "name": "Large eggs",
+              "amount": 1,
+              "unit": "each",
+              "cost": 4.06,
+              "packLabel": "Large eggs 18s",
+              "packPrice": 72.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Soft butter",
+              "amount": 50,
+              "unit": "g",
+              "cost": 6.9,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "milk",
+              "name": "Milk",
+              "amount": 40,
+              "unit": "ml",
+              "cost": 0.74,
+              "packLabel": "Full cream milk 2 L",
+              "packPrice": 36.99,
+              "missing": false
+            },
+            {
+              "key": "vanilla",
+              "name": "Vanilla",
+              "amount": 1,
+              "unit": "tsp",
+              "cost": 3.3,
+              "packLabel": "Vanilla essence 50 ml",
+              "packPrice": 32.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            }
+          ]
+        },
+        {
+          "id": "shortbread-fingers",
+          "name": "Shortbread fingers",
+          "yield": "4 fingers",
+          "image": "assets/recipes/shortbread-fingers.jpg",
+          "ingredientCost": 9.76,
+          "lines": [
+            {
+              "key": "cake-flour",
+              "name": "Cake flour",
+              "amount": 75,
+              "unit": "g",
+              "cost": 1.35,
+              "packLabel": "Cake flour 2.5 kg",
+              "packPrice": 44.99,
+              "missing": false
+            },
+            {
+              "key": "butter",
+              "name": "Butter",
+              "amount": 50,
+              "unit": "g",
+              "cost": 6.9,
+              "packLabel": "Butter 500 g",
+              "packPrice": 68.99,
+              "missing": false
+            },
+            {
+              "key": "castor-sugar",
+              "name": "Castor sugar",
+              "amount": 25,
+              "unit": "g",
+              "cost": 1.5,
+              "packLabel": "Castor sugar 500 g",
+              "packPrice": 29.99,
+              "missing": false
+            },
+            {
+              "key": "salt",
+              "name": "Salt",
+              "amount": 1,
+              "unit": "pinch",
+              "cost": 0.01,
+              "packLabel": "Table salt 1 kg",
+              "packPrice": 17.99,
+              "missing": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

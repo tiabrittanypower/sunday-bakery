@@ -1,0 +1,22 @@
+{
+  "week": 1,
+  "themeId": "after-church-classic",
+  "themeName": "After-Church Classic",
+  "tagline": "Sunday table, sorted.",
+  "recommendedPrice": 245,
+  "product": {
+    "id": "box",
+    "name": "After-Church Classic box",
+    "price": 245,
+    "description": "A shareable Sunday box for 2-3: mini lemon drizzle, two cinnamon buns, four jam shortbreads and two cheese scones - packed to fit, not a full tea table.",
+    "allergens": "Wheat | gluten | dairy | egg | may contain traces of soy or nuts",
+    "tag": "One box | four bakes | fits a standard bakery box | for 2-3",
+    "contents": [
+      "Mini lemon drizzle loaf (~4 slices)",
+      "2 soft cinnamon swirl buns",
+      "4 apricot jam thumbprint shortbreads",
+      "2 cheese & chive scones"
+    ]
+  },
+  "notes": "Safest launch week. Copy product fields into data/config.json for the operating week. Box-fit v2: portions reduced so items pack cleanly."
+}

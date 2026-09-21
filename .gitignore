@@ -1,4 +1,4 @@
-﻿# Dependencies & envs
+# Dependencies & envs
 node_modules/
 .venv/
 venv/
@@ -37,6 +37,10 @@ backups/
 *.sqlite
 *.db
 instance/
-# Runtime data
-data/*.json
-!data/.gitkeep
+# Runtime order/newsletter data (generated)
+data/orders.json
+data/newsletter.json
+# Keep weekly config + menus/recipes/costings tracked
+!data/config.json
+!data/**/*.json
+!data/**/*.md

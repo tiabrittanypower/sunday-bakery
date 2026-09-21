@@ -1,0 +1,22 @@
+{
+  "week": 3,
+  "themeId": "braai-weekend",
+  "themeName": "Braai Weekend Box",
+  "tagline": "Sweet after the fire - and something for the table.",
+  "recommendedPrice": 265,
+  "product": {
+    "id": "box",
+    "name": "Braai Weekend box",
+    "price": 265,
+    "description": "Braai weekend box for 2-3: small malva tray with sauce, three corn muffins, three milk rolls and six ginger biscuits.",
+    "allergens": "Wheat | gluten | dairy | egg",
+    "tag": "One box | four bakes | fits a standard bakery box | for 2-3",
+    "contents": [
+      "Malva pudding + sauce (small tray, 2-3 portions)",
+      "3 cheddar corn muffins",
+      "3 soft milk dinner rolls",
+      "6 ginger biscuits"
+    ]
+  },
+  "notes": "Keep malva chilled until handoff. Reheat instructions on card. Box-fit v2: portions reduced so items pack cleanly."
+}
