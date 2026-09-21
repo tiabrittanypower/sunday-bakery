@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eadb">
+  <title>Order confirmed — Sunday Bakery</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .return-page{min-height:100vh;display:grid;place-items:center;padding:40px 5vw;background:var(--paper)}
+    .return-card{max-width:560px;width:100%;text-align:center}
+    .return-card h1{font:clamp(48px,7vw,72px)/.95 var(--serif);margin:0 0 18px}
+    .return-card p{color:rgba(36,37,31,.7);line-height:1.6}
+    .return-card .order-button{display:inline-block;width:auto;padding:16px 28px;margin-top:28px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="return-page">
+    <div class="return-card" data-status>
+      <div class="confirm-mark" style="margin:0 auto 24px">…</div>
+      <p class="eyebrow">Loading order</p>
+      <h1>Just a moment.</h1>
+      <p>We’re confirming your payment.</p>
+    </div>
+  </main>
+  <script>
+    const money = (value) => new Intl.NumberFormat("en-ZA", {
+      style: "currency", currency: "ZAR", maximumFractionDigits: 0
+    }).format(value);
+
+    async function run() {
+      const params = new URLSearchParams(location.search);
+      const id = params.get("order");
+      const root = document.querySelector("[data-status]");
+      if (!id) {
+        root.innerHTML = `<div class="confirm-mark" style="margin:0 auto 24px">!</div>
+          <p class="eyebrow">Missing order</p>
+          <h1>We couldn’t find that order.</h1>
+          <p>If you paid, email us with your receipt and we’ll sort it out.</p>
+          <a class="order-button" href="./">Back to the bakery</a>`;
+        return;
+      }
+
+      try {
+        const res = await fetch(`/api/orders/${encodeURIComponent(id)}`, { cache: "no-store" });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Not found");
+        const order = data.order;
+        const paid = order.status === "paid" || order.status === "confirmed";
+
+        root.innerHTML = `
+          <div class="confirm-mark" style="margin:0 auto 24px">${paid ? "✓" : "…"}</div>
+          <p class="eyebrow">Order ${order.id}</p>
+          <h1>${paid ? "See you Sunday." : "Payment received."}</h1>
+          <p>${paid
+            ? `Thanks, ${order.firstName}. Your bake is booked for <strong>${order.collectionLabel}</strong> at <strong>${order.slot}</strong>. A confirmation email is on its way to <strong>${order.email}</strong>.`
+            : `Thanks, ${order.firstName}. If PayFast is still finalising, your confirmation email will arrive shortly. Status: <strong>${order.status}</strong>.`}</p>
+          <div class="confirm-card" style="text-align:left;margin:28px auto 0">
+            <div><span>Pickup</span><strong>${order.slot}</strong></div>
+            <div><span>Location</span><strong>${order.collectionAddress}</strong></div>
+            <div><span>Total</span><strong>${money(order.total)}</strong></div>
+          </div>
+          <a class="order-button" href="./">Back to the bakery</a>`;
+      } catch (err) {
+        root.innerHTML = `<div class="confirm-mark" style="margin:0 auto 24px">!</div>
+          <p class="eyebrow">Order ${id}</p>
+          <h1>We’re looking into it.</h1>
+          <p>${err.message || "Could not load this order."} If you completed payment, keep your PayFast reference and email hello@sundaybakery.co.za.</p>
+          <a class="order-button" href="./">Back to the bakery</a>`;
+      }
+    }
+    run();
+  </script>
+</body>
+</html>

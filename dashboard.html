@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eadb">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Bake Dashboard — Sunday Bakery (owner kitchen)</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="dashboard.js" defer></script>
+</head>
+<body>
+  <div class="owner-banner no-print">
+    <span>Owner kitchen — not public marketing</span>
+    <a href="/">← Back to storefront</a>
+  </div>
+
+  <header class="dash-header">
+    <div class="dash-brand">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      <div>
+        <p class="eyebrow">Sunday Bakery · Month 1</p>
+        <h1>Bake <em>Dashboard</em></h1>
+      </div>
+    </div>
+
+    <div class="controls no-print" role="group" aria-label="Scale controls">
+      <div class="control">
+        <label for="week-select">Week</label>
+        <select id="week-select" name="week">
+          <option value="1">Week 1</option>
+          <option value="2">Week 2</option>
+          <option value="3">Week 3</option>
+          <option value="4">Week 4</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="box-count">Boxes ordered</label>
+        <div class="stepper">
+          <button type="button" id="box-minus" aria-label="Decrease boxes">−</button>
+          <input type="number" id="box-count" name="boxes" min="1" max="50" value="1" inputmode="numeric">
+          <button type="button" id="box-plus" aria-label="Increase boxes">+</button>
+        </div>
+      </div>
+      <button type="button" class="btn-print" id="print-list">Print shopping list</button>
+    </div>
+  </header>
+
+  <main class="dash-main">
+    <section class="status-bar" aria-live="polite">
+      <div>
+        <p class="eyebrow" id="theme-kicker">Loading…</p>
+        <h2 id="theme-title">—</h2>
+      </div>
+      <div class="status-meta">
+        <div>
+          <span class="meta-label">Sell price / box</span>
+          <strong id="theme-price">—</strong>
+        </div>
+        <div>
+          <span class="meta-label">Boxes</span>
+          <strong id="scale-label">1×</strong>
+        </div>
+        <div>
+          <span class="meta-label">Box revenue</span>
+          <strong id="revenue-label">—</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="box-summary" aria-labelledby="box-summary-heading">
+      <h3 id="box-summary-heading">Box contents <span class="muted" id="box-summary-scale">(per 1 box)</span></h3>
+      <p class="box-fit-note" id="box-fit-note" hidden></p>
+      <ol class="box-list" id="box-contents"></ol>
+    </section>
+
+    <section class="costing-panel" id="costing-panel" aria-labelledby="costing-heading" hidden>
+      <div class="section-head">
+        <h3 id="costing-heading">Costing &amp; recommended sell</h3>
+        <p class="muted" id="costing-source">Ingredients + packaging + electricity + overhead</p>
+      </div>
+      <div class="costing-grid" id="costing-grid"></div>
+      <p class="costing-disclaimer muted" id="costing-disclaimer"></p>
+    </section>
+
+    <div class="dash-layout">
+      <section class="recipes-section" aria-labelledby="recipes-heading">
+        <div class="section-head">
+          <h3 id="recipes-heading">Scaled recipes</h3>
+          <p class="muted">Ingredient amounts = base × boxes. 1 box = recipe base.</p>
+        </div>
+        <div class="recipe-grid" id="recipe-grid"></div>
+      </section>
+
+      <aside class="shopping-panel" id="shopping-panel" aria-labelledby="shopping-heading">
+        <div class="shopping-head">
+          <div>
+            <p class="eyebrow">Combined</p>
+            <h3 id="shopping-heading">Shopping list</h3>
+          </div>
+          <p class="shopping-scale" id="shopping-scale">for 1 box</p>
+        </div>
+        <p class="print-only print-header-line">
+          Sunday Bakery · <span id="print-theme"></span> · <span id="print-boxes"></span>
+        </p>
+        <div id="shopping-list"></div>
+        <p class="shopping-note muted">Consolidated by ingredient key + unit. Group order: dry → dairy → produce → pantry → packaging.</p>
+      </aside>
+    </div>
+
+    <p id="load-error" class="load-error" hidden></p>
+  </main>
+
+  <footer class="dash-footer no-print">
+    <p>Owner kitchen tools only. Customer orders stay on the <a href="/">public storefront</a>.</p>
+  </footer>
+</body>
+</html>

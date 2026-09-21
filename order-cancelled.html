@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eadb">
+  <title>Payment cancelled — Sunday Bakery</title>
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .return-page{min-height:100vh;display:grid;place-items:center;padding:40px 5vw;background:var(--paper)}
+    .return-card{max-width:560px;width:100%;text-align:center}
+    .return-card h1{font:clamp(48px,7vw,72px)/.95 var(--serif);margin:0 0 18px}
+    .return-card p{color:rgba(36,37,31,.7);line-height:1.6}
+    .return-card .order-button{display:inline-block;width:auto;padding:16px 28px;margin-top:28px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <main class="return-page">
+    <div class="return-card">
+      <div class="confirm-mark" style="margin:0 auto 24px;background:var(--peach)">×</div>
+      <p class="eyebrow">Payment cancelled</p>
+      <h1>No charge made.</h1>
+      <p>Your PayFast checkout was cancelled. Your basket is empty on this device — add a box again if you’d still like one for Sunday.</p>
+      <a class="order-button" href="./#menu">Back to this week’s bake</a>
+    </div>
+  </main>
+</body>
+</html>

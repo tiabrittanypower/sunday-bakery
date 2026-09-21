@@ -1,0 +1,42 @@
+﻿# Dependencies & envs
+node_modules/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# Build / caches
+dist/
+dist-apk/
+build/
+.turbo/
+.cache/
+*.log
+
+# Secrets & local profiles
+*.pem
+*.key
+*credential*
+DEMO-LOGINS*
+.chrome-login-profile/
+.meta-browser-profile/
+.playwright-job-profile/
+chrome-profile/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local data
+backups/
+*.sqlite
+*.db
+instance/
+# Runtime data
+data/*.json
+!data/.gitkeep

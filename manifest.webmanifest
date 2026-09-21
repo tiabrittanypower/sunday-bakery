@@ -1,0 +1,28 @@
+{
+  "name": "Sunday Bakery",
+  "short_name": "Sunday",
+  "description": "Order Tia’s weekly Sunday bake box for collection in Boksburg / Kempton Park.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3eadb",
+  "theme_color": "#f3eadb",
+  "categories": ["food", "shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Order this week’s box",
+      "short_name": "Order",
+      "url": "./#menu",
+      "icons": [{"src": "assets/app-icon.svg", "sizes": "any", "type": "image/svg+xml"}]
+    }
+  ]
+}

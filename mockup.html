@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunday Bakery — mockup slides</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <style>
+      /* Brand tokens from styles.css / dashboard.css. One .slide per real screen. Print = one landscape sheet each. */
+      :root {
+        --cream: #f3eadb;
+        --paper: #faf6ee;
+        --ink: #24251f;
+        --olive: #4f5a3f;
+        --peach: #df8a67;
+        --brand: #4f5a3f;
+        --brand-ink: #f3eadb;
+        --bg: #4f5a3f;
+        --muted: #d7cbb8;
+        --line: #3d4632;
+        --tap: 48px;
+        --serif: "Instrument Serif", Georgia, serif;
+        --sans: "DM Sans", "Segoe UI", system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; min-height: 100%; }
+      body {
+        font: 16px/1.4 var(--sans);
+        color: var(--cream);
+        background: var(--olive);
+      }
+      .deck-ui {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 16px;
+        background: var(--ink);
+        border-bottom: 1px solid var(--line);
+      }
+      .deck-ui strong {
+        font-family: var(--serif);
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+      }
+      .deck-ui #counter { color: var(--muted); font-size: 13px; margin-right: auto; }
+      .deck-ui button {
+        min-height: var(--tap);
+        min-width: var(--tap);
+        padding: 0 14px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background: var(--peach);
+        color: var(--ink);
+        font: 600 13px var(--sans);
+        cursor: pointer;
+      }
+      .deck-ui button:disabled { opacity: 0.4; cursor: default; }
+      .slide {
+        display: none;
+        flex-direction: column;
+        min-height: calc(100vh - 70px);
+        padding: 16px 20px 24px;
+      }
+      .slide.is-on { display: flex; }
+      .slide-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+      .slide-head h2 {
+        margin: 0;
+        font: 400 1.25rem/1.15 var(--serif);
+        letter-spacing: -0.02em;
+      }
+      .slide-head small { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+      .frame-shell {
+        flex: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--ink);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .phone-shell { max-width: 420px; margin: 0 auto; width: 100%; }
+      .chrome {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        background: #1c1d18;
+      }
+      .traffic { display: flex; gap: 6px; }
+      .traffic i { width: 10px; height: 10px; border-radius: 50%; }
+      .traffic .r { background: #ff5f57; }
+      .traffic .y { background: #febc2e; }
+      .traffic .g { background: #28c840; }
+      .url {
+        flex: 1;
+        min-height: 28px;
+        border-radius: 8px;
+        background: #12130f;
+        color: var(--muted);
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+      }
+      .stage {
+        flex: 1;
+        min-height: 70vh;
+        background: var(--cream);
+        color: var(--ink);
+      }
+      .stage img, .stage iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 70vh;
+        border: 0;
+        object-fit: contain;
+        object-position: top center;
+        background: var(--cream);
+      }
+      .live { display: block; height: 100%; }
+      .shot { display: none; height: 100%; }
+      @page { size: A4 landscape; margin: 8mm; }
+      @media print {
+        * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        html, body { background: var(--olive); }
+        .deck-ui { display: none !important; }
+        .slide {
+          display: flex !important;
+          min-height: 0;
+          height: 190mm;
+          padding: 6mm;
+          break-after: page;
+          page-break-after: always;
+        }
+        .slide:last-child { break-after: auto; page-break-after: auto; }
+        .live { display: none !important; }
+        .shot { display: block !important; }
+        .stage { min-height: 0; }
+        .stage img { min-height: 0; height: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="deck-ui">
+      <strong>Sunday Bakery — mockup</strong>
+      <span id="counter">1 / 10</span>
+      <button type="button" id="prev">← Prev</button>
+      <button type="button" id="next">Next →</button>
+    </div>
+    <div id="slides"></div>
+    <script>
+      /* Real screens only. PWA customer = phone-shell; dashboard = desktop chrome.
+         Live iframe → http://127.0.0.1:3001/ ; print uses docs/mockup-slides/*.png */
+      const APP = "http://127.0.0.1:3001/";
+      const SLIDES = [
+        {
+          title: "Home",
+          file: "index.html",
+          url: APP,
+          shot: "docs/mockup-slides/01-home.png",
+          phone: true
+        },
+        {
+          title: "Home (desktop)",
+          file: "index.html",
+          url: APP,
+          shot: "docs/mockup-slides/09-home-desktop.png",
+          phone: false
+        },
+        {
+          title: "This week",
+          file: "index.html#menu",
+          url: APP + "#menu",
+          shot: "docs/mockup-slides/02-menu.png",
+          phone: true
+        },
+        {
+          title: "Our story",
+          file: "index.html#about",
+          url: APP + "#about",
+          shot: "docs/mockup-slides/03-story.png",
+          phone: true
+        },
+        {
+          title: "FAQ",
+          file: "index.html#faq",
+          url: APP + "#faq",
+          shot: "docs/mockup-slides/04-faq.png",
+          phone: true
+        },
+        {
+          title: "Basket",
+          file: "index.html",
+          url: APP,
+          shot: "docs/mockup-slides/05-basket.png",
+          phone: true
+        },
+        {
+          title: "Checkout",
+          file: "index.html",
+          url: APP,
+          shot: "docs/mockup-slides/06-checkout.png",
+          phone: true
+        },
+        {
+          title: "Order confirmed",
+          file: "order-success.html",
+          url: APP + "order-success.html",
+          shot: "docs/mockup-slides/07-confirmed.png",
+          phone: true
+        },
+        {
+          title: "Payment cancelled",
+          file: "order-cancelled.html",
+          url: APP + "order-cancelled.html",
+          shot: "docs/mockup-slides/08-cancelled.png",
+          phone: true
+        },
+        {
+          title: "Bake Dashboard",
+          file: "dashboard.html",
+          url: APP + "dashboard.html",
+          shot: "docs/mockup-slides/10-dashboard.png",
+          phone: false
+        }
+      ];
+
+      function withMockup(url) {
+        const hashIdx = url.indexOf("#");
+        const hash = hashIdx >= 0 ? url.slice(hashIdx) : "";
+        const base = hashIdx >= 0 ? url.slice(0, hashIdx) : url;
+        if (/[?&]mockup=/.test(base)) return base + hash;
+        const sep = base.indexOf("?") >= 0 ? "&" : "?";
+        return base + sep + "mockup=1" + hash;
+      }
+
+      const root = document.getElementById("slides");
+      const printing = /[?&]print=1/.test(location.search);
+      root.innerHTML = SLIDES.map(function (s, i) {
+        const shell = s.phone ? "frame-shell phone-shell" : "frame-shell";
+        const src = withMockup(s.url);
+        const bar = s.url;
+        return (
+          '<section class="slide' + (i === 0 ? " is-on" : "") + '">' +
+            '<div class="slide-head"><h2>' + (i + 1) + ". " + s.title +
+            '</h2><small>' + s.file + "</small></div>" +
+            '<div class="' + shell + '">' +
+              '<div class="chrome"><div class="traffic"><i class="r"></i><i class="y"></i><i class="g"></i></div>' +
+              '<div class="url">' + bar + "</div></div>" +
+              '<div class="stage">' +
+                '<div class="live"><iframe title="' + s.title + '" src="' + src +
+                '" loading="' + (printing || i === 0 ? "eager" : "lazy") + '"></iframe></div>' +
+                '<div class="shot"><img alt="' + s.title + '" src="' + s.shot + '"></div>' +
+              "</div></div></section>"
+        );
+      }).join("");
+      const slides = Array.prototype.slice.call(root.querySelectorAll(".slide"));
+      let i = 0;
+      const prev = document.getElementById("prev");
+      const next = document.getElementById("next");
+      const counter = document.getElementById("counter");
+      function show(n) {
+        i = Math.max(0, Math.min(slides.length - 1, n));
+        slides.forEach(function (el, j) { el.classList.toggle("is-on", j === i); });
+        counter.textContent = (i + 1) + " / " + slides.length;
+        prev.disabled = i === 0;
+        next.disabled = i === slides.length - 1;
+      }
+      prev.onclick = function () { show(i - 1); };
+      next.onclick = function () { show(i + 1); };
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowRight" || e.key === "PageDown") show(i + 1);
+        if (e.key === "ArrowLeft" || e.key === "PageUp") show(i - 1);
+      });
+      show(0);
+      if (printing) slides.forEach(function (el) { el.classList.add("is-on"); });
+    </script>
+  </body>
+</html>

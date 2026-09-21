@@ -1,0 +1,373 @@
+{
+  "researchedAt": "2026-07-21T19:00:31.508Z",
+  "area": "Boksburg / Benoni (East Rand)",
+  "method": "Playwright Chrome — Facebook search + Bing/DDG site:facebook.com + page visits",
+  "fbSessions": [
+    {
+      "query": "Sunday market Boksburg",
+      "notes": [
+        "title="
+      ],
+      "snippets": [],
+      "bodyPreview": "Not Found"
+    },
+    {
+      "query": "Sunday market Benoni",
+      "notes": [
+        "title="
+      ],
+      "snippets": [],
+      "bodyPreview": "Not Found"
+    },
+    {
+      "query": "flea market Sunday East Rand",
+      "notes": [
+        "title="
+      ],
+      "snippets": [],
+      "bodyPreview": "Not Found"
+    },
+    {
+      "query": "Sunday market Kempton Park",
+      "notes": [
+        "title="
+      ],
+      "snippets": [],
+      "bodyPreview": "Not Found"
+    }
+  ],
+  "linkCount": 25,
+  "candidates": [
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "East Rand Traders Square | Boksburg - Facebook",
+      "href": "https://www.facebook.com/ERTSquare/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "https://www.facebook.com › East-Rand-Flea-Market-755475327948066",
+      "href": "https://www.facebook.com/East-Rand-Flea-Market-755475327948066/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "https://www.facebook.com › pages › East-rand-flea-market › 148022235266978",
+      "href": "https://www.facebook.com/pages/East-rand-flea-market/148022235266978/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "East Rand/Jozi Markets & Events - Facebook",
+      "href": "https://www.facebook.com/groups/127870860643493/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "https://www.facebook.com › East-Rand-Outdoor-Flea-Market-272086179916864",
+      "href": "https://www.facebook.com/East-Rand-Outdoor-Flea-Market-272086179916864/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "Vendors/Markets Gauteng | Facebook",
+      "href": "https://www.facebook.com/groups/300069497551139/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "https://www.facebook.com › RosebankSundayMarket",
+      "href": "https://www.facebook.com/RosebankSundayMarket/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "https://www.facebook.com › East-Rand-Mall-Flea-Market-109848042488582",
+      "href": "https://www.facebook.com/East-Rand-Mall-Flea-Market-109848042488582/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "FLEA AND CRAFT MARKET STALLS SOUTH AFRICA | Good day,am ... - Facebook",
+      "href": "https://www.facebook.com/groups/215312769226448/posts/1360722781352102/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:Sunday flea market East Rand",
+      "text": "Hey guys... I don't know whether they open on Sunday at that flea ...",
+      "href": "https://www.facebook.com/groups/httpswww.facebook.comgroups150842245013157/posts/8616795095084454/",
+      "pageUrl": "https://duckduckgo.com/?q=Sunday+flea+market+East+Rand+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale | Boksburg",
+      "href": "https://www.facebook.com/BOKBUN13/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "https://www.facebook.com › bokkieparkcraftmarket",
+      "href": "https://www.facebook.com/bokkieparkcraftmarket/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "https://www.facebook.com › craftsinthepark2",
+      "href": "https://www.facebook.com/craftsinthepark2/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "Boksburg Community Group | Hi everyone | Facebook",
+      "href": "https://www.facebook.com/groups/httpswww.facebook.comgroups150842245013157/posts/9357115757719047/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "FLEA AND CRAFT MARKET STALLS SOUTH AFRICA - Facebook",
+      "href": "https://www.facebook.com/groups/215312769226448/posts/1965671630857211/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "https://www.facebook.com › benonimarket",
+      "href": "https://www.facebook.com/benonimarket/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "https://www.facebook.com › HappySoulsMarket",
+      "href": "https://www.facebook.com/HappySoulsMarket/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:flea market every Sunday Boksburg Benoni",
+      "text": "https://www.facebook.com › people › Ebotse-Market-in-the-park › 100068727156486",
+      "href": "https://www.facebook.com/people/Ebotse-Market-in-the-park/100068727156486/",
+      "pageUrl": "https://duckduckgo.com/?q=flea+market+every+Sunday+Boksburg+Benoni+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "https://www.facebook.com › events › 1-kirschner-road-westwood-boksburg-south-africa › monthly-fresh-market-heckers-garden-centre-boksburg › 852785836218285",
+      "href": "https://www.facebook.com/events/1-kirschner-road-westwood-boksburg-south-africa/monthly-fresh-market-heckers-garden-centre-boksburg/852785836218285/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "https://www.facebook.com › events › 1-kirschner-road-westwood-boksburg-south-africa › market-heckers-garden-centre-boksburg › 1037185198443387",
+      "href": "https://www.facebook.com/events/1-kirschner-road-westwood-boksburg-south-africa/market-heckers-garden-centre-boksburg/1037185198443387/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "https://www.facebook.com › events › 1-kirschner-road-westwood-boksburg-south-africa › market-heckers-garden-centre-boksburg › 2623453341370502",
+      "href": "https://www.facebook.com/events/1-kirschner-road-westwood-boksburg-south-africa/market-heckers-garden-centre-boksburg/2623453341370502/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "Boksburg Community Group - Facebook",
+      "href": "https://www.facebook.com/groups/httpswww.facebook.comgroups150842245013157/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "Thrivers | Boksburg - Facebook",
+      "href": "https://www.facebook.com/realthrivers/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "Woodlands Farmers & Craft Market | Boksburg - Facebook",
+      "href": "https://www.facebook.com/100057119244216/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    },
+    {
+      "source": "ddg-harvest:farmers market Sunday Boksburg",
+      "text": "Junction 21 - Indoor market | Boksburg - Facebook",
+      "href": "https://www.facebook.com/junction21/",
+      "pageUrl": "https://duckduckgo.com/?q=farmers+market+Sunday+Boksburg+site%3Afacebook.com&ia=web"
+    }
+  ],
+  "pageDetails": [
+    {
+      "href": "https://www.facebook.com/ERTSquare/",
+      "linkText": "East Rand Traders Square | Boksburg - Facebook",
+      "title": "East Rand Traders Square | Boksburg | Facebook",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [
+        "East Rand Traders Square",
+        "4 Frank Road, Bardene Ext.21, Boksburg, South Africa",
+        "East Rand Traders Square",
+        "See more from East Rand Traders Square | Boksburg"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/East-Rand-Flea-Market-755475327948066/",
+      "linkText": "https://www.facebook.com › East-Rand-Flea-Market-755475327948066",
+      "title": "East Rand Flea Market",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [],
+      "loginWall": false
+    },
+    {
+      "href": "https://www.facebook.com/pages/East-rand-flea-market/148022235266978/",
+      "linkText": "https://www.facebook.com › pages › East-rand-flea-market › 148022235266978",
+      "title": "Facebook",
+      "sunday": false,
+      "area": false,
+      "everySunday": false,
+      "excerpt": [],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/groups/127870860643493/",
+      "linkText": "East Rand/Jozi Markets & Events - Facebook",
+      "title": "East Rand/Jozi Markets & Events",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [],
+      "loginWall": false
+    },
+    {
+      "href": "https://www.facebook.com/East-Rand-Outdoor-Flea-Market-272086179916864/",
+      "linkText": "https://www.facebook.com › East-Rand-Outdoor-Flea-Market-272086179916864",
+      "title": "East Rand Outdoor Flea Market | Facebook",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [
+        "East Rand Outdoor Flea Market",
+        "Posts about East Rand Outdoor Flea Market"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/groups/300069497551139/",
+      "linkText": "Vendors/Markets Gauteng | Facebook",
+      "title": "Vendors/Markets Gauteng | Facebook",
+      "sunday": false,
+      "area": false,
+      "everySunday": false,
+      "excerpt": [
+        "Vendors/Markets Gauteng"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/RosebankSundayMarket/",
+      "linkText": "https://www.facebook.com › RosebankSundayMarket",
+      "title": "Rosebank Sunday Market | Facebook",
+      "sunday": true,
+      "area": false,
+      "everySunday": true,
+      "excerpt": [
+        "Rosebank Sunday Market",
+        "The market features a vast range of vintage, deli & food stalls, African arts and crafts, and more.",
+        "info@rosebanksundaymarket.co.za",
+        "rosebanksundaymarket.co.za",
+        "Rosebank Sunday Market is at Rosebank Mall.",
+        "Craving a hearty, satisfying meal to power your market Sunday? Crackling Rosie is serving up incredible roasted pork belly, pulled pork rolls, cheese grillers, burgers,… See more",
+        "Gee Naidoo every Sunday year round",
+        "See more from Rosebank Sunday Market"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/East-Rand-Mall-Flea-Market-109848042488582/",
+      "linkText": "https://www.facebook.com › East-Rand-Mall-Flea-Market-109848042488582",
+      "title": "East Rand Mall Flea Market",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [],
+      "loginWall": false
+    },
+    {
+      "href": "https://www.facebook.com/groups/215312769226448/posts/1360722781352102/",
+      "linkText": "FLEA AND CRAFT MARKET STALLS SOUTH AFRICA | Good day,am ... - Facebook",
+      "title": "FLEA AND CRAFT MARKET STALLS SOUTH AFRICA | Good day,am looking for Sunday markets around Johannesburg",
+      "sunday": true,
+      "area": false,
+      "everySunday": false,
+      "excerpt": [],
+      "loginWall": false
+    },
+    {
+      "href": "https://www.facebook.com/groups/httpswww.facebook.comgroups150842245013157/posts/8616795095084454/",
+      "linkText": "Hey guys... I don't know whether they open on Sunday at that flea ...",
+      "title": "Boksburg Community Group | Hey guys... I don't know whether they open on Sunday at that flea market opposite east rand mall....if thay do what time do they close | Facebook",
+      "sunday": true,
+      "area": true,
+      "everySunday": true,
+      "excerpt": [
+        "What are the Sunday hours for the flea market opposite East Rand Mall?",
+        "Boksburg Community Group",
+        "Nokukhanya Zama",
+        "Hey guys... I don't know whether they open on Sunday at that flea market opposite east rand mall....if thay do what time do they close",
+        "they are open Tuesday to Sundays from 9am -5pm but during the festive season they open on Mondays also and they extend their closing time from 5pm -6pm",
+        "East Rand Traders Square",
+        "Check on their page for trading hours..but they are open today.",
+        "Its open on Sundays i think they close at 5 or 6"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/BOKBUN13/",
+      "linkText": "Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale | Boksburg",
+      "title": "Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale | Boksburg | Facebook",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [
+        "Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale",
+        "Southvale Rd, Parkdene, Boksburg and Pretoria Rd, Rynfield, Benoni, Boksburg, South Africa",
+        "Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale",
+        "Just a few of the stunning people, crafts, collectables, food stalls and entertainers at the Bunny Park Market last month. We are back this Saturday, 25th July, with mo… See more",
+        "See more from Bokkie and Bunny Park Food and Craft Markets and Car Boot Sale | Boksburg"
+      ],
+      "loginWall": true
+    },
+    {
+      "href": "https://www.facebook.com/bokkieparkcraftmarket/",
+      "linkText": "https://www.facebook.com › bokkieparkcraftmarket",
+      "title": "Market and Carboot Sale - Bokkie and Bunny Parks | Boksburg | Facebook",
+      "sunday": false,
+      "area": true,
+      "everySunday": false,
+      "excerpt": [
+        "Market and Carboot Sale - Bokkie and Bunny Parks",
+        "Outdoor market with large selection of handmade goods, food stalls, bargains at the carboot sale and live entertainment and activities for children in beautiful enclosed parks.",
+        "Southvale Rd, Parkdene, Boksburg, South Africa",
+        "Market and Carboot Sale - Bokkie and Bunny Parks",
+        "Just a few of the stunning people, crafts, collectables, food stalls and entertainers at the Bunny Park Market last month. We are back this Saturday, 25th July, with mo… See more",
+        "See more from Market and Carboot Sale - Bokkie and Bunny Parks | Boksburg"
+      ],
+      "loginWall": true
+    }
+  ],
+  "screenshots": [
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\fb-sunday-market-boksburg.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\fb-sunday-market-benoni.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\fb-flea-market-sunday-east-rand.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\fb-sunday-market-kempton-park.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-ERTSquare-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-East-Rand-Flea-Market-755475327948066-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-pages-East-rand-flea-market-148022235266978.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-groups-127870860643493-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-East-Rand-Outdoor-Flea-Market-2720861799168.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-groups-300069497551139-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-RosebankSundayMarket-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-East-Rand-Mall-Flea-Market-109848042488582-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-groups-215312769226448-posts-13607227813521.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-groups-httpswww-facebook-comgroups150842245.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-BOKBUN13-.png",
+    "D:\\GROK\\Life Whatever\\Projects\\Sunday Bakery\\docs\\research-screens\\page-www-facebook-com-bokkieparkcraftmarket-.png"
+  ]
+}

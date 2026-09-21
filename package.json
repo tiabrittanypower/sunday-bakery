@@ -1,0 +1,23 @@
+{
+  "name": "sunday-bakery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sunday Bakery — weekly bake box pre-orders with PayFast checkout",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "smoke": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}

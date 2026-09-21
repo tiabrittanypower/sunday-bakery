@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Sunday Bakery — wireframe</title>
+    <style>
+      :root {
+        --bg: #eceae6;
+        --ink: #222;
+        --muted: #5a5a5a;
+        --line: #2a2a2a;
+        --fill: #f7f6f3;
+        --dash: #9a9a9a;
+        --call: #222;
+        --phone: #111;
+        --space-4: 4px;
+        --space-8: 8px;
+        --space-12: 12px;
+        --space-16: 16px;
+        --space-24: 24px;
+        --space-32: 32px;
+        --space-40: 40px;
+        --space-48: 48px;
+        --space-56: 56px;
+        --space-64: 64px;
+        --space-80: 80px;
+        --space-96: 96px;
+        --s8: var(--space-8);
+        --s16: var(--space-16);
+        --s24: var(--space-24);
+        --side: var(--space-16);
+        --tap: var(--space-48);
+        --tap-min: var(--space-48);
+        --cta-h: var(--space-56);
+        --gap: var(--space-8);
+        --section-gap: var(--space-24);
+        --radius: var(--space-12);
+        --nav-h: var(--space-56);
+        --lead: 1.5;
+        --store-max: 560px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font: 16px/var(--lead) "Segoe UI", system-ui, sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      .page {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: var(--section-gap) var(--side) var(--space-64);
+        padding-left: max(var(--side), env(safe-area-inset-left, 0px));
+        padding-right: max(var(--side), env(safe-area-inset-right, 0px));
+      }
+      h1 { margin: 0 0 var(--space-8); font-size: 1.4rem; line-height: 1.25; }
+      .lede { margin: 0 0 var(--space-16); color: var(--muted); max-width: 62ch; line-height: var(--lead); }
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--gap);
+        margin-bottom: var(--section-gap);
+      }
+      .toolbar button {
+        min-height: var(--tap);
+        min-width: var(--tap-min);
+        padding: 0 var(--space-16);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        font: inherit;
+        cursor: pointer;
+      }
+      .toolbar button.is-on {
+        background: var(--ink);
+        color: #fff;
+      }
+      .toolbar a {
+        min-height: var(--tap);
+        min-width: var(--tap);
+        display: inline-flex;
+        align-items: center;
+        padding: 0 var(--space-16);
+        border: 1px dashed var(--dash);
+        border-radius: var(--radius);
+        color: var(--ink);
+        text-decoration: none;
+      }
+      .board {
+        display: none;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: var(--space-32);
+      }
+      .board.is-on { display: grid; }
+      .board .phone { width: 360px; }
+      .focus {
+        display: none;
+        gap: var(--space-32);
+        align-items: start;
+      }
+      .focus.is-on { display: grid; }
+      @media (min-width: 900px) {
+        .focus.is-on { grid-template-columns: 390px 1fr; }
+      }
+      .phone {
+        width: 360px;
+        max-width: 100%;
+        margin: 0 auto;
+        background: #fff;
+        border: 2px solid var(--phone);
+        border-radius: 28px;
+        overflow: hidden;
+        box-shadow: 0 12px 0 rgba(0,0,0,0.06);
+      }
+      .notch {
+        height: 18px;
+        background: var(--phone);
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .screen {
+        min-height: 640px;
+        display: flex;
+        flex-direction: column;
+        background: var(--fill);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .app-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: var(--s8);
+        min-height: calc(var(--tap) + var(--space-16));
+        padding: var(--s8) var(--s16);
+        padding-top: calc(var(--s8) + env(safe-area-inset-top, 0px));
+        padding-left: max(var(--s16), env(safe-area-inset-left, 0px));
+        padding-right: max(var(--s16), env(safe-area-inset-right, 0px));
+        border-bottom: 1px solid var(--line);
+      }
+      .store-phone .app-head,
+      .dash-phone .app-head {
+        padding-top: var(--s8);
+      }
+      .app-head strong { display: block; font-size: 16px; font-weight: 700; line-height: 1.25; }
+      .app-head small { color: var(--muted); font-size: 11px; }
+      .gear {
+        width: var(--tap);
+        height: var(--tap);
+        min-width: var(--tap);
+        min-height: var(--tap);
+        padding: var(--space-12);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        display: grid;
+        place-items: center;
+        font-size: 16px;
+        flex-shrink: 0;
+        background: #fff;
+        box-sizing: border-box;
+      }
+      .basket-pill {
+        width: auto;
+        min-width: var(--tap);
+        min-height: var(--tap);
+        height: var(--tap);
+        padding: 0 var(--space-16);
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .body {
+        flex: 1;
+        padding: var(--side);
+        font-size: 13px;
+        line-height: var(--lead);
+      }
+      .body p { margin: 0 0 var(--space-12); line-height: var(--lead); }
+      .body p:last-child { margin-bottom: 0; }
+      .nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--s8);
+        min-height: var(--nav-h);
+        padding: var(--space-4) var(--s16);
+        border-top: 2px solid var(--line);
+      }
+      .nav span {
+        text-align: center;
+        min-height: var(--tap);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--space-8) var(--space-4);
+        font-size: 11px;
+        border: 1px solid var(--dash);
+        border-radius: var(--radius);
+      }
+      .nav span.on { font-weight: 700; background: #e8e8e8; }
+      .box {
+        border: 1px solid var(--line);
+        padding: var(--s16);
+        margin-bottom: var(--section-gap);
+        background: #fff;
+        position: relative;
+        border-radius: var(--radius);
+      }
+      .box:last-child { margin-bottom: 0; }
+      .box h3 {
+        margin: 0 0 var(--s16);
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        line-height: 1.25;
+      }
+      .row,
+      .list-row,
+      .shop-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: var(--gap);
+        padding: var(--space-8) 0;
+        border-top: 1px dashed var(--dash);
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: "tnum" 1;
+      }
+      .row:first-of-type,
+      .list-row:first-of-type,
+      .shop-row:first-of-type { border-top: 0; }
+      .row > :first-child,
+      .list-row > :first-child { text-align: left; }
+      .row > :last-child,
+      .list-row > :last-child,
+      .shop-row > :last-child,
+      .money {
+        text-align: right;
+        min-width: 8ch;
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: "tnum" 1;
+      }
+      .list-row { min-height: 0; padding: var(--space-8) 0; }
+      .shop-row {
+        grid-template-columns: var(--tap) minmax(0, 1fr) auto;
+        min-height: var(--tap);
+        padding: 0;
+        gap: var(--gap);
+      }
+      .shop-row .chk-hit {
+        width: var(--tap);
+        height: var(--tap);
+        min-width: var(--tap-min);
+        min-height: var(--tap-min);
+        display: grid;
+        place-items: center;
+        margin: 0;
+      }
+      .shop-row .shop-label { text-align: left; }
+      .chk {
+        width: var(--space-24);
+        height: var(--space-24);
+        min-width: var(--space-24);
+        min-height: var(--space-24);
+        box-sizing: border-box;
+        border: 1px solid var(--line);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 2px;
+      }
+      .chk.on { background: var(--ink); }
+      .faq-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-height: var(--tap);
+        padding: var(--space-12) 0;
+        margin: 0;
+        border: 0;
+        border-top: 1px dashed var(--dash);
+        background: transparent;
+        font: inherit;
+        color: inherit;
+        text-align: left;
+        cursor: pointer;
+        gap: var(--gap);
+        border-radius: 0;
+      }
+      .faq-row:first-of-type { border-top: 0; }
+      .faq-row .faq-q { flex: 1; }
+      .faq-row .faq-icon {
+        width: var(--space-24);
+        flex-shrink: 0;
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-8) var(--space-8);
+        margin: 0 0 var(--space-12);
+      }
+      .chip {
+        border: 1px solid var(--line);
+        padding: var(--space-8) var(--space-12);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        border-radius: var(--radius);
+        box-sizing: border-box;
+        line-height: 1.25;
+      }
+      .chip.on { background: var(--ink); color: #fff; }
+      .slots {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-12) var(--space-8);
+        margin: 0 0 var(--space-16);
+      }
+      .slots .chip {
+        min-height: var(--tap);
+        min-width: var(--tap-min);
+        padding: 0 var(--space-16);
+      }
+      .stepper {
+        display: flex;
+        align-items: center;
+        gap: var(--gap);
+      }
+      .stepper-btn {
+        width: var(--tap);
+        height: var(--tap);
+        min-width: var(--tap-min);
+        min-height: var(--tap-min);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #fff;
+        display: grid;
+        place-items: center;
+        font: inherit;
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      .stepper-count {
+        min-width: var(--tap);
+        min-height: var(--tap);
+        display: grid;
+        place-items: center;
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: "tnum" 1;
+      }
+      .date {
+        display: flex; gap: var(--s8); align-items: center; margin-bottom: var(--s16);
+      }
+      .date .mid {
+        flex: 1; text-align: center; border: 1px solid var(--line); padding: var(--space-8); font-weight: 700; min-height: var(--tap);
+        display: flex; align-items: center; justify-content: center; border-radius: var(--radius);
+      }
+      .sq {
+        width: var(--tap); height: var(--tap);
+        min-width: var(--tap-min); min-height: var(--tap-min);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        display: grid; place-items: center;
+        flex-shrink: 0;
+      }
+      .meter { height: var(--space-8); border: 1px solid var(--line); margin-top: var(--space-4); }
+      .meter > i { display: block; height: 100%; background: #bbb; }
+      .ex { display: grid; grid-template-columns: var(--space-64) 1fr; gap: var(--space-12); min-height: var(--tap); padding: var(--gap) 0; }
+      .ex i { width: var(--space-64); height: var(--space-64); border: 1px dashed var(--dash); display: block; border-radius: var(--radius); }
+      .n {
+        position: absolute;
+        top: var(--space-8);
+        right: var(--space-8);
+        width: var(--space-24);
+        height: var(--space-24);
+        border-radius: 50%;
+        background: var(--call);
+        color: #fff;
+        font-size: 12px;
+        display: grid;
+        place-items: center;
+      }
+
+      .callouts { background: #fff; border: 1px solid var(--line); padding: var(--space-16); border-radius: var(--radius); }
+      .callouts h2 { margin: 0 0 var(--gap); font-size: 1rem; }
+      .callouts ol { margin: 0; padding-left: var(--section-gap); }
+      .callouts li { margin: 0 0 var(--gap); line-height: var(--lead); }
+      .screen-label {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin: 0 0 var(--space-8);
+        color: var(--muted);
+      }
+      .muted { color: var(--muted); }
+      @page { size: A4 landscape; margin: 10mm; }
+      @media print {
+        .toolbar { display: none !important; }
+        .focus { display: none !important; }
+        .board {
+          display: grid !important;
+          grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        }
+        body { background: #fff; }
+        .page { max-width: none; padding: 0; }
+        .phone { break-inside: avoid; width: 360px; }
+        .store-split { display: block; }
+      }
+      .field {
+        border: 1px solid var(--dash);
+        min-height: var(--tap);
+        padding: 0 var(--space-16);
+        margin-bottom: var(--space-12);
+        color: var(--muted);
+        border-radius: var(--radius);
+        display: flex;
+        align-items: center;
+      }
+      .field:last-child { margin-bottom: 0; }
+      .btn {
+        border: 1px solid var(--line);
+        min-height: var(--tap);
+        height: var(--tap);
+        width: 100%;
+        padding: 0 var(--space-16);
+        text-align: center;
+        font-weight: 700;
+        margin-top: var(--space-16);
+        border-radius: var(--radius);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+      }
+      .btn.fill {
+        background: var(--ink);
+        color: #fff;
+        border-color: var(--ink);
+      }
+      .btn.fill.cta {
+        width: 100%;
+        min-height: var(--cta-h);
+        height: var(--cta-h);
+        margin: var(--section-gap) 0;
+      }
+      .btn.fill.cta:first-child { margin-top: 0; }
+      .empty {
+        padding: var(--space-48) var(--space-16);
+        min-height: var(--tap);
+        text-align: center;
+      }
+      .ann {
+        min-height: var(--space-32);
+        background: var(--phone);
+        color: #fff;
+        font-size: 9px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--space-8);
+        padding: var(--space-8) var(--space-16);
+        padding-top: calc(var(--space-8) + env(safe-area-inset-top, 0px));
+        text-align: center;
+        line-height: 1.25;
+        box-sizing: border-box;
+      }
+      .progress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--space-8);
+        padding: var(--space-12) var(--space-16);
+        border-bottom: 1px solid var(--line);
+        font-size: 10px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .progress span {
+        color: var(--muted);
+        font-weight: 400;
+        min-height: var(--space-32);
+        padding: var(--space-8) var(--space-12);
+        border-radius: var(--radius);
+        display: inline-flex;
+        align-items: center;
+      }
+      .progress span.on {
+        color: #fff;
+        background: var(--ink);
+        font-weight: 700;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .progress i { width: var(--space-16); height: 1px; background: var(--dash); display: block; flex-shrink: 0; }
+      .photo {
+        height: var(--space-80);
+        border: 1px dashed var(--dash);
+        display: grid;
+        place-items: center;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: var(--space-12);
+        border-radius: var(--radius);
+      }
+      .mark {
+        width: var(--space-48);
+        height: var(--space-48);
+        border: 2px solid var(--line);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        margin: 0 auto var(--space-16);
+        font-size: 20px;
+      }
+      .steps { margin: 0; padding-left: var(--space-24); }
+      .steps li { margin: 0 0 var(--space-8); line-height: var(--lead); }
+      .owner {
+        background: var(--ink);
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: var(--space-8) var(--space-16);
+        padding-top: calc(var(--space-8) + env(safe-area-inset-top, 0px));
+        min-height: var(--space-32);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .store-split { display: block; }
+      @media (min-width: 600px) {
+        .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .focus .phone.store-phone { width: min(100%, var(--store-max)); }
+        .focus .store-split {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: var(--section-gap);
+          align-items: start;
+        }
+        .focus .store-split .box { margin-bottom: 0; }
+        .focus .store-split .stack .box { margin-bottom: var(--section-gap); }
+        .focus .store-split .stack .box:last-child { margin-bottom: 0; }
+      }
+      @media (min-width: 1024px) {
+        .board { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        .focus.is-on { grid-template-columns: minmax(360px, var(--store-max)) 1fr; }
+        .focus .phone.store-phone { width: var(--store-max); }
+      }
+      .phone.checkout-phone,
+      .phone.overlay-phone,
+      .phone.return-phone,
+      .board .phone,
+      .board .phone.store-phone { width: 360px; }
+      .checkout-phone .screen,
+      .checkout-phone .body,
+      .overlay-phone .screen,
+      .overlay-phone .body {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>Sunday Bakery — wireframe</h1>
+      <p class="lede">
+        Layout only. Boxes and labels show what sits on each real screen.
+        This is not the live app. Grey on purpose so we can agree structure before polish.
+        Customer storefront is <code>index.html</code>; overlays are basket and checkout;
+        return pages are order success / cancelled; owner kitchen is <code>dashboard.html</code>.
+        Tokens: 8-pt grid, 16 side, 24 between cards, 48 dp hits, 12 radius.
+      </p>
+      <div class="toolbar">
+        <button type="button" id="btn-focus" class="is-on">One phone</button>
+        <button type="button" id="btn-board">All nine screens</button>
+        <a href="./index.html">Open storefront</a>
+        <a href="./dashboard.html">Open dashboard</a>
+      </div>
+
+      <div class="focus is-on" id="focus">
+        <div>
+          <div class="toolbar" id="screen-tabs">
+            <button type="button" data-screen="home" class="is-on">Home</button>
+            <button type="button" data-screen="menu">This week</button>
+            <button type="button" data-screen="story">Our story</button>
+            <button type="button" data-screen="faq">FAQ</button>
+            <button type="button" data-screen="basket">Basket</button>
+            <button type="button" data-screen="checkout">Checkout</button>
+            <button type="button" data-screen="confirmed">Confirmed</button>
+            <button type="button" data-screen="cancelled">Cancelled</button>
+            <button type="button" data-screen="dashboard">Dashboard</button>
+          </div>
+          <div id="phone-host"></div>
+        </div>
+        <aside class="callouts" id="callouts"></aside>
+      </div>
+
+      <div class="board" id="board"></div>
+    </div>
+
+    <script>
+      const SCREENS = {
+        home: {
+          title: "Home",
+          purpose: "Landing at #top: who we are, next collection, and a path into this week’s bake.",
+          family: "store",
+          sub: "Boksburg · Kempton Park",
+          basket: "0",
+          notes: [
+            "Announcement bar sits below the status notch and respects safe-area padding. Header Basket pill is a 48 dp hit target.",
+            "Header: brand + Basket. Desktop also shows This week / Our story / FAQ; those links hide under 900px.",
+            "Hero: eyebrow, Made for slow mornings, pitch, then full-width 56 dp Shop this week’s bake CTA isolated by 24 dp.",
+            "Next collection card: date and Boksburg / Kempton Park window from config.",
+            "Values chips: 8 dp internal padding, 8 dp gaps. Tablet/desktop focus: hero left, collection + values right (max 560 px).",
+            "Install app sits in the header when the PWA prompt is available — not its own screen."
+          ],
+          html: `
+            <div class="store-split">
+              <div class="box"><span class="n">1</span>
+                <h3>Hero</h3>
+                <div class="photo">Hero photo</div>
+                <p class="muted">Boksburg · Kempton Park · One bake a week</p>
+                <p><strong>Made for slow mornings.</strong></p>
+                <p>A tiny East Rand bakery making weekly bake boxes in small batches. Pre-order now, collect on Sunday.</p>
+                <div class="btn fill cta">Shop this week’s bake</div>
+              </div>
+              <div class="stack">
+                <div class="box"><span class="n">2</span>
+                  <h3>Next collection</h3>
+                  <div class="row"><span>When</span><strong>Sunday, 26 July</strong></div>
+                  <div class="row"><span>Where</span><span>Boksburg / Kempton Park · 09:00–11:00</span></div>
+                </div>
+                <div class="box"><span class="n">3</span>
+                  <h3>Values</h3>
+                  <div class="chips">
+                    <span class="chip">Pre-order only</span>
+                    <span class="chip">Baked to order</span>
+                    <span class="chip">Local collection</span>
+                    <span class="chip">Always small-batch</span>
+                  </div>
+                </div>
+              </div>
+            </div>`
+        },
+        menu: {
+          title: "This week",
+          purpose: "Nav #menu — one weekly box, four bakes inside, add to basket or sold-out / closed.",
+          family: "store",
+          sub: "Bake no. 1 · 26 July",
+          basket: "0",
+          notes: [
+            "Section intro: bake number + collection date from config. Headline One box. Four good things.",
+            "Copy: complete Sunday spread for 2–4 (box-fit v2 is 2–3). Orders close Friday 18:00 or when sold out.",
+            "Single product card. Price R245 is right-aligned on the money keyline.",
+            "Inside the box: four rows with 8 dp vertical rhythm (not tap rows).",
+            "Add one box is the only primary CTA on this view: full-width 56 dp, 24 dp isolation.",
+            "Availability bar: % spoken for, only N left, sold out, or closed."
+          ],
+          html: `
+            <div class="store-split">
+              <div class="stack">
+                <div class="box"><span class="n">1</span>
+                  <h3>This week’s bake</h3>
+                  <p class="muted">Bake no. 1 · 26 July</p>
+                  <p><strong>One box. Four good things.</strong></p>
+                  <p>No picking or choosing. Each weekly box is a complete Sunday spread. Orders close Friday at 18:00 — or when we sell out.</p>
+                </div>
+                <div class="box"><span class="n">2</span>
+                  <h3>After-Church Classic box</h3>
+                  <div class="photo">Product photo</div>
+                  <p class="muted">One box · four bakes · for 2–3</p>
+                  <div class="row"><span>This week’s selection</span><strong class="money">R245</strong></div>
+                  <p>Mini lemon drizzle, two cinnamon buns, four jam shortbreads and two cheese scones — packed to fit.</p>
+                </div>
+              </div>
+              <div class="stack">
+                <div class="box"><span class="n">3</span>
+                  <h3>Inside the box</h3>
+                  <div class="list-row"><span>01 Mini lemon drizzle loaf</span><span>~4 slices</span></div>
+                  <div class="list-row"><span>02 Soft cinnamon swirl buns</span><span>2</span></div>
+                  <div class="list-row"><span>03 Apricot jam thumbprints</span><span>4</span></div>
+                  <div class="list-row"><span>04 Cheese &amp; chive scones</span><span>2</span></div>
+                </div>
+                <div class="box"><span class="n">4</span>
+                  <h3>Order</h3>
+                  <p class="muted">Wheat · gluten · dairy · egg · may contain traces of soy or nuts</p>
+                  <div class="btn fill cta">Add one box</div>
+                  <p class="muted">Collect Sunday, 26 July · East Rand</p>
+                </div>
+                <div class="box"><span class="n">5</span>
+                  <h3>Availability</h3>
+                  <p>% of this week’s bake is spoken for · Allergens on each item</p>
+                </div>
+              </div>
+            </div>`
+        },
+        story: {
+          title: "Our story",
+          purpose: "Nav #about plus the Sunday ritual block that sits between menu and about.",
+          family: "store",
+          sub: "Hello, I’m Tia",
+          basket: "0",
+          notes: [
+            "Tablet/desktop focus: ritual left, about + quote right.",
+            "The Sunday ritual (not in the nav, real section): 01 Book your box · 02 We bake for your order · 03 Collect on Sunday.",
+            "About photo with stamp copy: one baker, one oven, every Sunday.",
+            "Copy: home kitchen, weekly boxes for Boksburg / Kempton Park, rotating menus, small quantities. Signature Tia x.",
+            "Quote from a regular. Not a separate route."
+          ],
+          html: `
+            <div class="store-split">
+              <div class="box"><span class="n">1</span>
+                <h3>The Sunday ritual</h3>
+                <ol class="steps">
+                  <li><strong>01 Book your box</strong> — see the four bakes, order before Friday evening.</li>
+                  <li><strong>02 We bake for your order</strong> — mixed and baked after you’ve paid and the list is closed.</li>
+                  <li><strong>03 Collect on Sunday</strong> — Boksburg / Kempton Park slot, bring a tote.</li>
+                </ol>
+              </div>
+              <div class="stack">
+                <div class="box"><span class="n">2</span>
+                  <h3>About photo</h3>
+                  <div class="photo">Kitchen photo</div>
+                  <p class="muted">One baker · one oven · every Sunday</p>
+                </div>
+                <div class="box"><span class="n">3</span>
+                  <h3>About</h3>
+                  <p class="muted">Hello, I’m Tia</p>
+                  <p><strong>A bakery built around the good kind of waiting.</strong></p>
+                  <p>Weekly boxes for collection in Boksburg and Kempton Park. Menu rotates. Quantities stay small.</p>
+                  <p><em>Tia x</em></p>
+                </div>
+                <div class="box"><span class="n">4</span>
+                  <h3>Quote</h3>
+                  <p>“The malva was still warm, the scones were for Monday tea, and nobody had to bake a thing.”</p>
+                  <p class="muted">— A very happy Sunday regular</p>
+                </div>
+              </div>
+            </div>`
+        },
+        faq: {
+          title: "FAQ",
+          purpose: "Nav #faq plus the footer newsletter — last storefront scroll, not a second site.",
+          family: "store",
+          sub: "Good to know",
+          basket: "0",
+          notes: [
+            "Each FAQ row is a full-width 48 dp hit — the whole row, not only the +.",
+            "Five real details: collect where, no walk-ins, missed pickup, allergies, change/cancel before Thursday 18:00.",
+            "Footer newsletter: email field 48 dp + Join the list. One email a week.",
+            "Footer meta: Instagram, email, Boksburg / Kempton Park, Sunday collection windows, © 2026."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <h3>Questions</h3>
+              <p><strong>Questions, answered.</strong></p>
+              <p class="muted">hello@sundaybakery.co.za</p>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <h3>FAQ list</h3>
+              <button type="button" class="faq-row"><span class="faq-q">Where do I collect my order?</span><span class="faq-icon">+</span></button>
+              <button type="button" class="faq-row"><span class="faq-q">Can I walk in without ordering?</span><span class="faq-icon">+</span></button>
+              <button type="button" class="faq-row"><span class="faq-q">What if I miss my pickup time?</span><span class="faq-icon">+</span></button>
+              <button type="button" class="faq-row"><span class="faq-q">Do you cater for allergies?</span><span class="faq-icon">+</span></button>
+              <button type="button" class="faq-row"><span class="faq-q">Can I change or cancel my order?</span><span class="faq-icon">+</span></button>
+            </div>
+            <div class="box"><span class="n">3</span>
+              <h3>Newsletter</h3>
+              <p class="muted">Fresh menus, no inbox clutter.</p>
+              <div class="field">you@email.com</div>
+              <div class="btn fill">Join the list</div>
+              <p class="muted">One thoughtful email a week. Unsubscribe anytime.</p>
+            </div>
+            <div class="box"><span class="n">4</span>
+              <h3>Footer</h3>
+              <div class="row"><span>Instagram</span><span>Email us</span></div>
+              <p class="muted">Boksburg / Kempton Park · Sunday collection windows · © 2026</p>
+            </div>`
+        },
+        basket: {
+          title: "Basket",
+          purpose: "Cart drawer from header Basket. Qty, total, then pickup &amp; checkout — or empty state.",
+          family: "overlay",
+          sub: "Your Sunday",
+          notes: [
+            "Close × is a 48 × 48 dp hit. Overlay + lock scroll.",
+            "Quantity stepper: − and + are 48 × 48 with 8 dp gaps around the count.",
+            "Line total R245 right-aligned on the money keyline.",
+            "Choose pickup & checkout is the only primary CTA: full-width 56 dp, 24 dp isolation.",
+            "Empty: Your basket is still sleeping + Browse this week’s bake → #menu."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <h3>After-Church Classic box</h3>
+              <div class="ex"><i></i><div>
+                After-Church Classic box<br>
+                <span class="muted">R245 each</span>
+              </div></div>
+              <div class="stepper" style="margin-top:var(--space-16)">
+                <span class="stepper-btn">−</span>
+                <span class="stepper-count">1</span>
+                <span class="stepper-btn">+</span>
+              </div>
+              <div class="row"><span>Line total</span><strong class="money">R245</strong></div>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <h3>Total</h3>
+              <div class="row"><span>Total</span><strong class="money">R245</strong></div>
+              <div class="btn fill cta">Choose pickup &amp; checkout</div>
+              <p class="muted">Collection Sunday, 26 July · Boksburg / Kempton Park</p>
+            </div>
+            <div class="box"><span class="n">3</span>
+              <h3>Empty state</h3>
+              <p class="muted">Your basket is still sleeping. Browse this week’s bake.</p>
+            </div>`
+        },
+        checkout: {
+          title: "Checkout",
+          purpose: "Details layer: who we’re baking for, pickup slot, summary, PayFast or demo confirm.",
+          family: "checkout",
+          step: "details",
+          notes: [
+            "Progress: Basket muted · Details filled pill (bold + underline) · Done muted. Always single-column.",
+            "Close × is 48 × 48. Headline Nearly yours.",
+            "Fields First name, Last name, Email, Mobile: 48 dp tall, 16 dp horizontal padding.",
+            "Pickup pills: 48 dp tall, 8–12 dp gaps. Optional order note.",
+            "Confirm order · R245 is the only primary CTA. Totals right-aligned tabular figures."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <h3>Nearly yours.</h3>
+              <p class="muted">Tell us who we’re baking for and when you’ll collect.</p>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <h3>Your details</h3>
+              <div class="field">First name</div>
+              <div class="field">Last name</div>
+              <div class="field">Email address</div>
+              <div class="field">Mobile number</div>
+            </div>
+            <div class="box"><span class="n">3</span>
+              <h3>Pickup time</h3>
+              <div class="slots">
+                <span class="chip on">09:00–09:30</span>
+                <span class="chip">09:30–10:00</span>
+                <span class="chip">10:00–10:30</span>
+                <span class="chip">10:30–11:00</span>
+              </div>
+              <div class="field">Order note (optional)</div>
+            </div>
+            <div class="box"><span class="n">4</span>
+              <h3>Order summary</h3>
+              <div class="row"><span>1 × After-Church Classic box</span><span class="money">R245</span></div>
+              <div class="row"><span>Total</span><strong class="money">R245</strong></div>
+              <p class="muted">Demo: confirmed without a card. PayFast: reserved 30 minutes.</p>
+              <div class="btn fill cta">Confirm order · R245</div>
+            </div>`
+        },
+        confirmed: {
+          title: "Order confirmed",
+          purpose: "Done step: demo overlay in checkout, or order-success.html after PayFast.",
+          family: "checkout",
+          step: "done",
+          notes: [
+            "Progress Done is the filled pill. Checkout stays single-column on every breakpoint.",
+            "Card: pickup slot, collection address, total (R245 right-aligned).",
+            "Back to the bakery is the primary CTA (56 dp).",
+            "PayFast return page is the same confirmation content, not a tenth screen."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <div class="mark">✓</div>
+              <p class="muted" style="text-align:center">Order SB-1001</p>
+              <p style="text-align:center"><strong>See you Sunday.</strong></p>
+              <p class="muted" style="text-align:center">Thanks, Tia. Your bake is booked. A confirmation has been sent to you@email.com.</p>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <h3>Pickup</h3>
+              <div class="row"><span>Collection</span><strong>Sunday, 26 July</strong></div>
+              <div class="row"><span>Pickup time</span><strong>09:00–09:30</strong></div>
+              <div class="row"><span>Location</span><span>Boksburg / Kempton Park</span></div>
+              <div class="row"><span>Order total</span><strong class="money">R245</strong></div>
+            </div>
+            <div class="box"><span class="n">3</span>
+              <div class="btn fill cta">Back to the bakery</div>
+            </div>`
+        },
+        cancelled: {
+          title: "Payment cancelled",
+          purpose: "order-cancelled.html — PayFast return when the customer backs out. No charge.",
+          family: "return",
+          notes: [
+            "Standalone page, not a drawer. × mark, Payment cancelled, No charge made.",
+            "Basket is empty on this device after PayFast cancel.",
+            "Back to this week’s bake is the primary CTA → ./#menu."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <div class="mark">×</div>
+              <p class="muted" style="text-align:center">Payment cancelled</p>
+              <p style="text-align:center"><strong>No charge made.</strong></p>
+              <p class="muted" style="text-align:center">Your PayFast checkout was cancelled. Your basket is empty on this device — add a box again if you’d still like one for Sunday.</p>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <div class="btn fill cta">Back to this week’s bake</div>
+            </div>`
+        },
+        dashboard: {
+          title: "Bake Dashboard",
+          purpose: "Owner kitchen at dashboard.html — scale recipes by boxes, costing, print shopping list.",
+          family: "dash",
+          sub: "Owner kitchen · Month 1",
+          notes: [
+            "Scale stepper: − / count / + are 48 × 48 with 8 dp gaps.",
+            "Print shopping list is the primary CTA (56 dp, max contrast).",
+            "Sell price, revenue, and costing R values right-align on one tabular keyline.",
+            "Shopping checkboxes: 24 × 24 visual inside a 48 × 48 hit, 8 dp gap to the label.",
+            "Cards use 16 dp padding, 24 dp between sections, 12 radius throughout."
+          ],
+          html: `
+            <div class="box"><span class="n">1</span>
+              <h3>Scale</h3>
+              <div class="row"><span>Week</span><strong>Week 1</strong></div>
+              <p>Boxes ordered</p>
+              <div class="stepper">
+                <span class="stepper-btn">−</span>
+                <span class="stepper-count">1</span>
+                <span class="stepper-btn">+</span>
+              </div>
+              <div class="btn fill cta">Print shopping list</div>
+            </div>
+            <div class="box"><span class="n">2</span>
+              <h3>After-Church Classic</h3>
+              <div class="row"><span>Sell price / box</span><strong class="money">R245</strong></div>
+              <div class="row"><span>Boxes</span><strong>1×</strong></div>
+              <div class="row"><span>Box revenue</span><strong class="money">R245</strong></div>
+            </div>
+            <div class="box"><span class="n">3</span>
+              <h3>Box contents (per 1 box)</h3>
+              <p class="muted">Box-fit: 2–3 people. Standard bakery box. Portions pack without crushing.</p>
+              <div class="list-row"><span>01 Lemon drizzle loaf</span><span>1 mini · ~4 slices</span></div>
+              <div class="list-row"><span>02 Cinnamon swirl buns</span><span>2</span></div>
+              <div class="list-row"><span>03 Apricot thumbprints</span><span>4</span></div>
+              <div class="list-row"><span>04 Cheese &amp; chive scones</span><span>2</span></div>
+            </div>
+            <div class="box"><span class="n">4</span>
+              <h3>Costing &amp; recommended sell</h3>
+              <div class="row"><span>Ingredients + waste</span><span class="money">R83</span></div>
+              <div class="row"><span>Packaging</span><span class="money">R13.50</span></div>
+              <div class="row"><span>Electricity (batch)</span><span class="money">R4.68</span></div>
+              <div class="row"><span>Cash cost / box</span><strong class="money">R105</strong></div>
+              <div class="row"><span>Menu / recommended</span><span class="money">R245 / R230</span></div>
+              <p class="muted">~R3.50/kWh · estimates — re-check Checkers packs.</p>
+            </div>
+            <div class="box"><span class="n">5</span>
+              <h3>Scaled recipes</h3>
+              <div class="ex"><i></i><div>Lemon drizzle loaf<br><span class="muted">1 mini loaf · 1 box</span></div></div>
+              <div class="row"><span>Cake flour</span><span>100 g</span></div>
+              <div class="row"><span>Butter, melted</span><span>50 g</span></div>
+              <p class="muted">+ cinnamon buns, thumbprints, scones. Amounts = base × boxes.</p>
+            </div>
+            <div class="box"><span class="n">6</span>
+              <h3>Shopping list</h3>
+              <div class="shop-row"><span class="chk-hit"><i class="chk"></i></span><span class="shop-label">Cake flour</span><span>100 g</span></div>
+              <div class="shop-row"><span class="chk-hit"><i class="chk"></i></span><span class="shop-label">Butter</span><span>50 g</span></div>
+              <div class="shop-row"><span class="chk-hit"><i class="chk"></i></span><span class="shop-label">Lemons</span><span>1</span></div>
+              <p class="muted">Dry → dairy → produce → pantry → packaging. Print header: theme · boxes.</p>
+            </div>`
+        }
+      };
+
+      function phoneClass(family) {
+        if (family === "store") return "store-phone";
+        if (family === "overlay") return "overlay-phone";
+        if (family === "checkout") return "checkout-phone";
+        if (family === "return") return "return-phone";
+        return "dash-phone";
+      }
+
+      function chromeHtml(key) {
+        const s = SCREENS[key];
+        if (s.family === "store") {
+          return `
+            <div class="ann">This week’s bake closes Friday at 18:00 · Order for Sunday</div>
+            <header class="app-head">
+              <div>
+                <strong>Sunday Bakery</strong>
+                <small>${s.sub}</small>
+              </div>
+              <div class="gear basket-pill" title="Basket">Basket ${s.basket}</div>
+            </header>`;
+        }
+        if (s.family === "overlay") {
+          return `
+            <header class="app-head">
+              <div>
+                <strong>Basket</strong>
+                <small>Your Sunday · 1</small>
+              </div>
+              <div class="gear" aria-label="Close">×</div>
+            </header>`;
+        }
+        if (s.family === "checkout") {
+          const detailsOn = s.step === "details" ? "on" : "";
+          const doneOn = s.step === "done" ? "on" : "";
+          return `
+            <header class="app-head">
+              <div>
+                <strong>Checkout</strong>
+                <small>Sunday Bakery</small>
+              </div>
+              <div class="gear" aria-label="Close">×</div>
+            </header>
+            <div class="progress">
+              <span>Basket</span><i></i>
+              <span class="${detailsOn}">Details</span><i></i>
+              <span class="${doneOn}">Done</span>
+            </div>`;
+        }
+        if (s.family === "return") {
+          return `
+            <header class="app-head">
+              <div>
+                <strong>Sunday Bakery</strong>
+                <small>PayFast return</small>
+              </div>
+            </header>`;
+        }
+        return `
+          <div class="owner">Owner kitchen — not public marketing · ← Back to storefront</div>
+          <header class="app-head">
+            <div>
+              <strong>Bake Dashboard</strong>
+              <small>${s.sub}</small>
+            </div>
+          </header>`;
+      }
+
+      function phoneHtml(key) {
+        const s = SCREENS[key];
+        return `
+          <p class="screen-label">${s.title}</p>
+          <div class="phone ${phoneClass(s.family)}">
+            <div class="notch">Wireframe</div>
+            <div class="screen">
+              ${chromeHtml(key)}
+              <div class="body">${s.html}</div>
+            </div>
+          </div>`;
+      }
+
+      function notesHtml(key) {
+        const s = SCREENS[key];
+        return `<h2>${s.title}</h2>
+          <p><em>${s.purpose}</em></p>
+          <ol>${s.notes.map((n) => `<li>${n}</li>`).join("")}</ol>`;
+      }
+
+      let current = "home";
+      const focus = document.getElementById("focus");
+      const board = document.getElementById("board");
+      const host = document.getElementById("phone-host");
+      const callouts = document.getElementById("callouts");
+
+      function showFocus(key) {
+        current = key;
+        host.innerHTML = phoneHtml(key);
+        callouts.innerHTML = notesHtml(key);
+        document.querySelectorAll("#screen-tabs button").forEach((b) => {
+          b.classList.toggle("is-on", b.getAttribute("data-screen") === key);
+        });
+      }
+
+      function showBoard() {
+        board.innerHTML = Object.keys(SCREENS).map((k) =>
+          `<div>${phoneHtml(k)}</div>`
+        ).join("");
+      }
+
+      document.getElementById("btn-focus").onclick = () => {
+        document.getElementById("btn-focus").classList.add("is-on");
+        document.getElementById("btn-board").classList.remove("is-on");
+        focus.classList.add("is-on");
+        board.classList.remove("is-on");
+      };
+      document.getElementById("btn-board").onclick = () => {
+        document.getElementById("btn-board").classList.add("is-on");
+        document.getElementById("btn-focus").classList.remove("is-on");
+        focus.classList.remove("is-on");
+        board.classList.add("is-on");
+        showBoard();
+      };
+      document.querySelectorAll("#screen-tabs button").forEach((b) => {
+        b.onclick = () => showFocus(b.getAttribute("data-screen"));
+      });
+      showFocus("home");
+      showBoard();
+      if (/[?&]print=1/.test(location.search)) {
+        document.getElementById("btn-board").click();
+      }
+      window.addEventListener("beforeprint", showBoard);
+    </script>
+  </body>
+</html>

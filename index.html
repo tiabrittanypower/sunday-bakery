@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eadb">
+  <meta name="application-name" content="Sunday Bakery">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Sunday Bakery">
+  <meta name="description" content="Sunday Bakery — weekly bake boxes for Sunday collection in Boksburg / Kempton Park.">
+  <title>Sunday Bakery — Made for slow mornings</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/app-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span data-announcement-text>This week’s bake closes Friday at 18:00</span><span>●</span><a href="#menu">Order for Sunday</a>
+  </div>
+  <header>
+    <a class="brand" href="#top"><span class="brand-mark">S</span><strong>SUNDAY<br>BAKERY</strong></a>
+    <nav><a href="#menu">This week</a><a href="#about">Our story</a><a href="#faq">FAQ</a></nav>
+    <div class="header-actions"><button class="install-link" data-install hidden>Install app</button><button class="basket-link" data-open-cart>Basket <b data-cart-count>0</b></button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow light">Boksburg · Kempton Park · One bake a week</p>
+        <h1>Made for<br><em>slow mornings.</em></h1>
+        <p>A tiny East Rand bakery making weekly bake boxes in small batches. Pre-order now, collect on Sunday.</p>
+        <a class="primary light-button" href="#menu">Shop this week’s bake <span>↗</span></a>
+      </div>
+      <div class="collection-card"><small>Next collection</small><strong data-collection-label>Sunday, 26 July</strong><small data-collection-location>Boksburg / Kempton Park · 09:00–11:00</small></div>
+    </section>
+
+    <div class="values"><span>✦ Pre-order only</span><span>✦ Baked to order</span><span>✦ Local collection</span><span>✦ Always small-batch</span></div>
+
+    <section class="menu" id="menu">
+      <div class="menu-inner">
+        <div class="section-intro">
+          <p class="eyebrow" data-bake-label>Bake no. 1 · 26 July</p>
+          <h2>One box.<br><em>Four good things.</em></h2>
+          <p class="section-intro-copy">No picking, choosing or decision fatigue. Each weekly box is a complete Sunday spread for 2–4 people. Orders close Friday at 18:00 — or when we sell out.</p>
+        </div>
+        <div class="product-grid" data-products></div>
+        <div class="availability" data-availability>
+          <span><i></i> Loading this week’s bake…</span>
+          <span>Allergens are listed on each item.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ritual">
+      <p class="eyebrow light">The Sunday ritual</p>
+      <div class="ritual-grid">
+        <h2>Three little steps<br>to a <em>better morning.</em></h2>
+        <ol>
+          <li><b>01</b><div><strong>Book your box</strong><p>See the four bakes inside this week’s box, then order before Friday evening.</p></div></li>
+          <li><b>02</b><div><strong>We bake for your order</strong><p>Your box is mixed and baked by hand in tiny batches — only after you’ve paid and the list is closed.</p></div></li>
+          <li><b>03</b><div><strong>Collect on Sunday</strong><p>Pick a slot in Boksburg / Kempton Park, bring a tote, and take home a full weekend spread.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-photo"><div>ONE BAKER<br>ONE OVEN<br>EVERY SUNDAY</div></div>
+      <div class="about-copy">
+        <p class="eyebrow">Hello, I’m Tia</p>
+        <h2>A bakery built around<br><em>the good kind of waiting.</em></h2>
+        <p class="lead">Sunday started in a home kitchen, with one oven and a stubborn belief that weekend baking tastes better when nobody rushes it.</p>
+        <p>These days I bake weekly boxes for collection in Boksburg and Kempton Park. The menu rotates — classic tea table, chocolate treats, braai weekend, milk tart — and quantities stay small so every loaf, bun and square gets the attention it deserves.</p>
+        <span class="signature">Tia x</span>
+      </div>
+    </section>
+
+    <section class="quote"><blockquote>“The malva was still warm, the scones were for Monday tea, and nobody had to bake a thing.”</blockquote><p>— A very happy Sunday regular</p></section>
+
+    <section class="faq" id="faq">
+      <div><p class="eyebrow">Good to know</p><h2>Questions,<br><em>answered.</em></h2><p>Still wondering? Say hello at<br><a href="mailto:hello@sundaybakery.co.za">hello@sundaybakery.co.za</a></p></div>
+      <div class="faq-list">
+        <details open><summary>Where do I collect my order?<span>+</span></summary><p>In the Boksburg / Kempton Park area. The exact collection point and map notes are on your order confirmation (home gate or partner point, depending on the week).</p></details>
+        <details><summary>Can I walk in without ordering?<span>+</span></summary><p>No — we bake to order only so nothing is wasted. Pre-ordering by Friday is the only way to get a box.</p></details>
+        <details><summary>What if I miss my pickup time?<span>+</span></summary><p>Don’t panic. Your order stays boxed until the end of the collection window. After that, send us a message and we’ll do our best to help.</p></details>
+        <details><summary>Do you cater for allergies?<span>+</span></summary><p>Our kitchen handles wheat, gluten, dairy, eggs, sesame and nuts. Ingredients are listed per product, but we cannot guarantee against traces.</p></details>
+        <details><summary>Can I change or cancel my order?<span>+</span></summary><p>Reply to your confirmation before Thursday at 18:00 and we’ll happily help. After that, ingredients and prep are already underway.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div><p class="eyebrow light">A note for next Sunday</p><h2>Fresh menus,<br><em>no inbox clutter.</em></h2></div>
+      <form id="newsletter"><label>Email address</label><div><input type="email" placeholder="you@email.com" required><button>Join the list ↗</button></div><small data-newsletter-message>One thoughtful email a week. Unsubscribe anytime.</small></form>
+    </div>
+    <div class="footer-meta">
+      <a class="brand" href="#top"><span class="brand-mark">S</span><strong>SUNDAY<br>BAKERY</strong></a>
+      <p><a href="https://instagram.com">Instagram ↗</a>&nbsp;&nbsp; <a href="mailto:hello@sundaybakery.co.za">Email us ↗</a></p>
+      <p>Boksburg / Kempton Park<br>Sunday collection windows</p><p>© 2026 Sunday Bakery</p>
+    </div>
+  </footer>
+
+  <div class="overlay" data-overlay></div>
+  <aside class="cart" data-cart aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">Your Sunday</p><h2>Basket <sup data-cart-count>0</sup></h2></div><button class="round-button" data-close aria-label="Close">×</button></div>
+    <div class="cart-body" data-cart-body></div><div class="cart-foot" data-cart-foot></div>
+  </aside>
+  <section class="checkout" data-checkout aria-hidden="true">
+    <button class="round-button checkout-close" data-close>×</button>
+    <div class="progress"><span>Basket</span><i></i><span>Details</span><i></i><span data-done>Done</span></div>
+    <div data-checkout-content></div>
+  </section>
+  <div class="toast" data-toast></div>
+</body>
+</html>
